@@ -1,0 +1,92 @@
+$VAR1 = {
+          '328108' => {
+                        'upictitle' => 'chistyakov: pic#13093965',
+                        'deleted_poster' => undef,
+                        'etime_ts' => undef,
+                        'username' => [
+                                      {
+                                        'journaltype' => 'P',
+                                        'journal' => 'ex_chistyak',
+                                        'inline_css' => 0,
+                                        'bold' => 1,
+                                        'side_alias' => 0,
+                                        'profile_url' => 'http://ex-chistyak.livejournal.com/profile',
+                                        'striked' => 1,
+                                        'journal_url' => 'http://ex-chistyak.livejournal.com/',
+                                        'username' => 'ex_chistyak',
+                                        'color' => undef,
+                                        'is_identity' => 0,
+                                        'noctxpopup' => 0,
+                                        'alias' => 0,
+                                        'attrs' => undef,
+                                        'user_alias' => undef,
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3'
+                                      }
+                                    ],
+                        'commenter_journal_base' => 'http://ex-chistyak.livejournal.com/',
+                        'ctime' => 'December 10 2004, 18:37:27 UTC',
+                        'article' => "\x{410}\x{43d}\x{433}\x{43b}\x{438}\x{447}\x{430}\x{43d}\x{435}, \x{43f}\x{43e}-\x{43c}\x{43e}\x{435}\x{43c}\x{443}, \x{443}\x{440}\x{43e}\x{434}\x{44b}. \x{410}\x{43d}\x{433}\x{43b}\x{438}\x{447}\x{430}\x{43d}\x{43a}\x{438}, \x{442}\x{430}\x{43a} \x{432}\x{410}\x{449}\x{449}\x{435}--\x{435}-\x{435}-...<br /><br />{+}",
+                        'poster' => 'alexandrov_g',
+                        'above' => undef,
+                        'level' => 1,
+                        'subject' => "\x{41c}\x{43d}\x{435} \x{43d}\x{435} \x{43d}\x{440}\x{430}\x{432}\x{44f}\x{442}\x{441}\x{44f}",
+                        'margin' => 0,
+                        'leafclass' => undef,
+                        'ipaddr' => undef,
+                        'below' => undef,
+                        'noid' => undef,
+                        'actions' => [
+                                     {
+                                       'footer' => 1,
+                                       'title' => 'Reply',
+                                       'name' => 'reply',
+                                       'href' => 'http://alexandrov-g.livejournal.com/32940.html?replyto=328108',
+                                       'allowed' => 1
+                                     },
+                                     {
+                                       'name' => 'permalink',
+                                       'title' => 'link',
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/32940.html?thread=328108#t328108'
+                                     },
+                                     {
+                                       'title' => 'Collapse',
+                                       'name' => 'collapse',
+                                       'href' => 'http://alexandrov-g.livejournal.com/32940.html?thread=328108#t328108',
+                                       'allowed' => 1
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/32940.html?thread=328108#t328108',
+                                       'name' => 'expand',
+                                       'title' => 'Expand'
+                                     }
+                                   ],
+                        'shown' => 1,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'massactions' => 0,
+                        'etime' => undef,
+                        'userpic' => undef,
+                        'collapsed' => 0,
+                        'subclass' => undef,
+                        'deleted' => 0,
+                        'dname' => 'ex_chistyak',
+                        'parent' => 0,
+                        'is_best' => 0,
+                        'deepLevel' => 0,
+                        'p_tracked' => 0,
+                        'suspended' => undef,
+                        'talkid' => 1281,
+                        'controls' => undef,
+                        'ctime_ts' => '1102703847',
+                        'uname' => 'ex_chistyak',
+                        'stime' => '10 years ago',
+                        'thread' => 328108,
+                        'siteroot' => 'http://www.livejournal.com',
+                        'tracked' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/32940.html?thread=328108#t328108',
+                        'is_promo' => 0,
+                        'loaded' => 1,
+                        'dtalkid' => 328108
+                      }
+        };

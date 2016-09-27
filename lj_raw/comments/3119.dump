@@ -1,0 +1,92 @@
+$VAR1 = {
+          '7471' => {
+                      'userpic' => 'http://l-userpic.livejournal.com/1953796/469050',
+                      'etime' => undef,
+                      'subclass' => undef,
+                      'collapsed' => 0,
+                      'dname' => 'pioneer_lj',
+                      'deleted' => 0,
+                      'parent' => 0,
+                      'is_best' => 0,
+                      'p_tracked' => 0,
+                      'deepLevel' => 0,
+                      'suspended' => undef,
+                      'ctime_ts' => '1088998974',
+                      'controls' => undef,
+                      'talkid' => 29,
+                      'uname' => 'pioneer_lj',
+                      'stime' => '11 years ago',
+                      'thread' => 7471,
+                      'siteroot' => 'http://www.livejournal.com',
+                      'is_promo' => 0,
+                      'thread_url' => 'http://alexandrov-g.livejournal.com/3119.html?thread=7471#t7471',
+                      'tracked' => 0,
+                      'dtalkid' => 7471,
+                      'loaded' => 1,
+                      'deleted_poster' => undef,
+                      'upictitle' => "Pioneer: \x{412}\x{438}\x{43d}\x{43d}\x{438}-\x{41f}\x{443}\x{445}",
+                      'username' => [
+                                    {
+                                      'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                      'user_alias' => undef,
+                                      'alias' => 0,
+                                      'noctxpopup' => 0,
+                                      'attrs' => undef,
+                                      'color' => undef,
+                                      'username' => 'pioneer_lj',
+                                      'journal_url' => 'http://pioneer-lj.livejournal.com/',
+                                      'striked' => undef,
+                                      'profile_url' => 'http://pioneer-lj.livejournal.com/profile',
+                                      'is_identity' => 0,
+                                      'bold' => 1,
+                                      'inline_css' => 0,
+                                      'side_alias' => 0,
+                                      'journal' => 'pioneer_lj',
+                                      'journaltype' => 'P'
+                                    }
+                                  ],
+                      'commenter_journal_base' => 'http://pioneer-lj.livejournal.com/',
+                      'etime_ts' => undef,
+                      'article' => "\x{41d}\x{443} \x{434}\x{430}. \x{427}\x{435}\x{440}\x{435}\x{437} \"\x{431}\x{44b}\x{434}\x{43b}\x{43e}\" \x{43f}\x{440}\x{43e}\x{438}\x{441}\x{445}\x{43e}\x{434}\x{438}\x{442} \x{43e}\x{442}\x{440}\x{438}\x{446}\x{430}\x{442}\x{435}\x{43b}\x{44c}\x{43d}\x{430}\x{44f} \x{441}\x{430}\x{43c}\x{43e}\x{438}\x{434}\x{435}\x{43d}\x{442}\x{438}\x{444}\x{438}\x{43a}\x{430}\x{446}\x{438}\x{44f} \x{43b}\x{44e}\x{431}\x{43e}\x{433}\x{43e} \x{41c}\x{430}\x{43b}\x{43e}\x{433}\x{43e} \x{41d}\x{430}\x{440}\x{43e}\x{434}\x{430}.",
+                      'ctime' => 'July 5 2004, 03:42:54 UTC',
+                      'poster' => 'alexandrov_g',
+                      'above' => undef,
+                      'level' => 1,
+                      'margin' => 0,
+                      'subject' => '',
+                      'leafclass' => undef,
+                      'below' => undef,
+                      'ipaddr' => undef,
+                      'noid' => undef,
+                      'actions' => [
+                                   {
+                                     'title' => 'Reply',
+                                     'name' => 'reply',
+                                     'footer' => 1,
+                                     'allowed' => 1,
+                                     'href' => 'http://alexandrov-g.livejournal.com/3119.html?replyto=7471'
+                                   },
+                                   {
+                                     'name' => 'permalink',
+                                     'title' => 'link',
+                                     'href' => 'http://alexandrov-g.livejournal.com/3119.html?thread=7471#t7471',
+                                     'allowed' => 1
+                                   },
+                                   {
+                                     'href' => 'http://alexandrov-g.livejournal.com/3119.html?thread=7471#t7471',
+                                     'allowed' => 1,
+                                     'name' => 'collapse',
+                                     'title' => 'Collapse'
+                                   },
+                                   {
+                                     'href' => 'http://alexandrov-g.livejournal.com/3119.html?thread=7471#t7471',
+                                     'allowed' => 1,
+                                     'name' => 'expand',
+                                     'title' => 'Expand'
+                                   }
+                                 ],
+                      'shown' => 1,
+                      'massactions' => 0,
+                      'statprefix' => 'http://l-stat.livejournal.net'
+                    }
+        };

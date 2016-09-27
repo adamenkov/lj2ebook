@@ -1,0 +1,92 @@
+$VAR1 = {
+          '1075773' => {
+                         'leafclass' => undef,
+                         'margin' => 0,
+                         'subject' => '',
+                         'noid' => undef,
+                         'actions' => [
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/71485.html?replyto=1075773',
+                                        'allowed' => 1,
+                                        'footer' => 1,
+                                        'name' => 'reply',
+                                        'title' => 'Reply'
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/71485.html?thread=1075773#t1075773',
+                                        'allowed' => 1,
+                                        'title' => 'link',
+                                        'name' => 'permalink'
+                                      },
+                                      {
+                                        'title' => 'Collapse',
+                                        'name' => 'collapse',
+                                        'allowed' => 1,
+                                        'href' => 'http://alexandrov-g.livejournal.com/71485.html?thread=1075773#t1075773'
+                                      },
+                                      {
+                                        'title' => 'Expand',
+                                        'name' => 'expand',
+                                        'href' => 'http://alexandrov-g.livejournal.com/71485.html?thread=1075773#t1075773',
+                                        'allowed' => 1
+                                      }
+                                    ],
+                         'ipaddr' => undef,
+                         'below' => undef,
+                         'statprefix' => 'http://l-stat.livejournal.net',
+                         'massactions' => 0,
+                         'shown' => 1,
+                         'username' => [
+                                       {
+                                         'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                         'alias' => 0,
+                                         'noctxpopup' => 0,
+                                         'attrs' => undef,
+                                         'user_alias' => undef,
+                                         'bold' => 1,
+                                         'inline_css' => 0,
+                                         'side_alias' => 0,
+                                         'striked' => 1,
+                                         'profile_url' => 'http://soldaten47.livejournal.com/profile',
+                                         'color' => undef,
+                                         'username' => 'soldaten47',
+                                         'journal_url' => 'http://soldaten47.livejournal.com/',
+                                         'is_identity' => 0,
+                                         'journaltype' => 'P',
+                                         'journal' => 'soldaten47'
+                                       }
+                                     ],
+                         'etime_ts' => undef,
+                         'commenter_journal_base' => 'http://soldaten47.livejournal.com/',
+                         'ctime' => 'September 14 2005, 20:29:59 UTC',
+                         'article' => "\x{41c}\x{44b} \x{43f}\x{440}\x{43e}\x{441}\x{438}\x{43c} \x{432}\x{441}\x{435}\x{445} \x{43f}\x{440}\x{438}\x{441}\x{443}\x{442}\x{441}\x{442}\x{432}\x{443}\x{44e}\x{449}\x{438}\x{445} \x{43e}\x{442}\x{43c}\x{435}\x{442}\x{438}\x{442}\x{44c} \x{44d}\x{442}\x{43e}\x{442} \x{43f}\x{440}\x{43e}\x{432}\x{43e}\x{43a}\x{430}\x{446}\x{438}\x{43e}\x{43d}\x{43d}\x{44b}\x{439} \x{432}\x{43e}\x{43f}\x{440}\x{43e}\x{441}, \x{43e}\x{442} \x{43a}\x{43e}\x{442}\x{43e}\x{440}\x{43e}\x{433}\x{43e} \x{437}\x{430} \x{432}\x{435}\x{440}\x{441}\x{442}\x{443} \x{440}\x{430}\x{437}\x{438}\x{442} \x{43c}\x{430}\x{43b}\x{44c}\x{442}\x{443}\x{437}\x{438}\x{430}\x{43d}\x{441}\x{442}\x{432}\x{43e}\x{43c}, \x{43d}\x{435}\x{43e}\x{43c}\x{430}\x{43b}\x{44c}\x{442}\x{443}\x{437}\x{438}\x{430}\x{43d}\x{441}\x{442}\x{432}\x{43e}\x{43c}, \x{43f}\x{440}\x{430}\x{433}\x{43c}\x{430}\x{442}\x{438}\x{437}\x{44c}\x{43c}\x{43e}\x{43c}, \x{44d}\x{43a}\x{437}\x{438}\x{441}\x{442}\x{435}\x{43d}\x{446}\x{438}\x{43e}..\x{43e}\x{430}..\x{43d}\x{430}\x{43b}\x{438}\x{437}\x{44c}\x{43c}\x{43e}\x{43c} \x{438} \x{43d}\x{435}\x{432}\x{435}\x{440}\x{438}\x{435}\x{43c}, \x{442}\x{43e}\x{432}\x{430}\x{440}\x{438}\x{449}\x{438}, \x{432} \x{43d}\x{435}\x{438}\x{441}\x{447}\x{435}\x{440}\x{43f}\x{430}\x{435}\x{43c}\x{443}\x{44e} \x{43c}\x{43e}\x{449}\x{44c} \x{447}\x{435}\x{43b}\x{43e}\x{432}\x{435}\x{447}\x{435}\x{441}\x{442}\x{432}\x{430}.",
+                         'upictitle' => 'soldaten47: pic#0',
+                         'deleted_poster' => undef,
+                         'poster' => 'alexandrov_g',
+                         'level' => 1,
+                         'above' => undef,
+                         'talkid' => 4202,
+                         'controls' => undef,
+                         'ctime_ts' => '1126729799',
+                         'suspended' => undef,
+                         'uname' => 'soldaten47',
+                         'siteroot' => 'http://www.livejournal.com',
+                         'stime' => '10 years ago',
+                         'thread' => 1075773,
+                         'loaded' => 1,
+                         'dtalkid' => 1075773,
+                         'tracked' => 0,
+                         'thread_url' => 'http://alexandrov-g.livejournal.com/71485.html?thread=1075773#t1075773',
+                         'is_promo' => 0,
+                         'subclass' => undef,
+                         'collapsed' => 0,
+                         'etime' => undef,
+                         'userpic' => undef,
+                         'deleted' => 0,
+                         'dname' => 'soldaten47',
+                         'parent' => 0,
+                         'deepLevel' => 0,
+                         'p_tracked' => 0,
+                         'is_best' => 0
+                       }
+        };

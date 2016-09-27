@@ -1,0 +1,16 @@
+lj_raw/trimmed_comments/*.trimmed
+lj_raw/sorted_comments/*.sorted
+
+lj_processed/flat_comments/*.html
+lj_processed/processed_posts/*.html
+
+lj_tex/.texpadtmp/*
+lj_tex/sections/*
+lj_tex/alexandrov-g.aux
+lj_tex/alexandrov-g.tex
+
+alexandrov-g.pdf
+alexandrov-g.epub
+
+.DS_Store
+

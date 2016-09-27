@@ -1,0 +1,92 @@
+$VAR1 = {
+          '798581' => {
+                        'above' => undef,
+                        'level' => 1,
+                        'poster' => 'alexandrov_g',
+                        'upictitle' => 'pteros: bulka',
+                        'deleted_poster' => undef,
+                        'username' => [
+                                      {
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                        'user_alias' => undef,
+                                        'alias' => 0,
+                                        'noctxpopup' => 0,
+                                        'attrs' => undef,
+                                        'striked' => undef,
+                                        'profile_url' => 'http://pteros.livejournal.com/profile',
+                                        'journal_url' => 'http://pteros.livejournal.com/',
+                                        'username' => 'pteros',
+                                        'color' => undef,
+                                        'is_identity' => 0,
+                                        'inline_css' => 0,
+                                        'bold' => 1,
+                                        'side_alias' => 0,
+                                        'journal' => 'pteros',
+                                        'journaltype' => 'P'
+                                      }
+                                    ],
+                        'etime_ts' => undef,
+                        'commenter_journal_base' => 'http://pteros.livejournal.com/',
+                        'article' => "\"\x{425}\x{43e}\x{447}\x{435}\x{448}\x{44c} \x{431}\x{44b}\x{442}\x{44c} \x{441}\x{447}\x{430}\x{441}\x{442}\x{43b}\x{438}\x{432}\x{44b}\x{43c}-\x{431}\x{443}\x{434}\x{44c} \x{438}\x{43c}\"<br />:))",
+                        'ctime' => 'May 20 2005, 09:36:04 UTC',
+                        'shown' => 1,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'massactions' => 0,
+                        'ipaddr' => undef,
+                        'below' => undef,
+                        'noid' => undef,
+                        'actions' => [
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/56693.html?replyto=798581',
+                                       'allowed' => 1,
+                                       'footer' => 1,
+                                       'name' => 'reply',
+                                       'title' => 'Reply'
+                                     },
+                                     {
+                                       'title' => 'link',
+                                       'name' => 'permalink',
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/56693.html?thread=798581#t798581'
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/56693.html?thread=798581#t798581',
+                                       'title' => 'Collapse',
+                                       'name' => 'collapse'
+                                     },
+                                     {
+                                       'name' => 'expand',
+                                       'title' => 'Expand',
+                                       'href' => 'http://alexandrov-g.livejournal.com/56693.html?thread=798581#t798581',
+                                       'allowed' => 1
+                                     }
+                                   ],
+                        'subject' => '',
+                        'margin' => 0,
+                        'leafclass' => undef,
+                        'is_best' => 0,
+                        'deepLevel' => 0,
+                        'p_tracked' => 0,
+                        'parent' => 0,
+                        'deleted' => 0,
+                        'dname' => 'pteros',
+                        'etime' => undef,
+                        'userpic' => 'http://l-userpic.livejournal.com/41429774/1961887',
+                        'subclass' => undef,
+                        'collapsed' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/56693.html?thread=798581#t798581',
+                        'tracked' => 0,
+                        'is_promo' => 0,
+                        'loaded' => 1,
+                        'dtalkid' => 798581,
+                        'stime' => '10 years ago',
+                        'thread' => 798581,
+                        'siteroot' => 'http://www.livejournal.com',
+                        'uname' => 'pteros',
+                        'suspended' => undef,
+                        'talkid' => 3119,
+                        'ctime_ts' => '1116581764',
+                        'controls' => undef
+                      }
+        };

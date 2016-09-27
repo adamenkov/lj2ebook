@@ -1,0 +1,92 @@
+$VAR1 = {
+          '16174190' => {
+                          'is_promo' => 0,
+                          'thread_url' => 'http://alexandrov-g.livejournal.com/366.html?thread=16174190#t16174190',
+                          'tracked' => 0,
+                          'loaded' => 1,
+                          'dtalkid' => 16174190,
+                          'stime' => '3 weeks ago',
+                          'thread' => 16174190,
+                          'siteroot' => 'http://www.livejournal.com',
+                          'uname' => 'roman_romets',
+                          'suspended' => undef,
+                          'controls' => undef,
+                          'ctime_ts' => '1446377431',
+                          'talkid' => 63180,
+                          'is_best' => 0,
+                          'p_tracked' => 0,
+                          'deepLevel' => 0,
+                          'parent' => 0,
+                          'dname' => 'roman_romets',
+                          'deleted' => 0,
+                          'userpic' => 'http://l-userpic.livejournal.com/118939926/34279110',
+                          'etime' => undef,
+                          'collapsed' => 0,
+                          'subclass' => undef,
+                          'shown' => 1,
+                          'massactions' => 0,
+                          'statprefix' => 'http://l-stat.livejournal.net',
+                          'below' => undef,
+                          'ipaddr' => undef,
+                          'noid' => undef,
+                          'actions' => [
+                                       {
+                                         'name' => 'reply',
+                                         'title' => 'Reply',
+                                         'footer' => 1,
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/366.html?replyto=16174190'
+                                       },
+                                       {
+                                         'title' => 'link',
+                                         'name' => 'permalink',
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/366.html?thread=16174190#t16174190'
+                                       },
+                                       {
+                                         'title' => 'Collapse',
+                                         'name' => 'collapse',
+                                         'href' => 'http://alexandrov-g.livejournal.com/366.html?thread=16174190#t16174190',
+                                         'allowed' => 1
+                                       },
+                                       {
+                                         'title' => 'Expand',
+                                         'name' => 'expand',
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/366.html?thread=16174190#t16174190'
+                                       }
+                                     ],
+                          'margin' => 0,
+                          'subject' => '',
+                          'leafclass' => undef,
+                          'above' => undef,
+                          'level' => 1,
+                          'poster' => 'alexandrov_g',
+                          'deleted_poster' => undef,
+                          'upictitle' => "\x{420}\x{43e}\x{43c}\x{430}\x{43d} \x{425}\x{430}\x{431}\x{430}\x{440}\x{441}\x{43a}\x{438}\x{439}: pic#118939926",
+                          'commenter_journal_base' => 'http://roman-romets.livejournal.com/',
+                          'username' => [
+                                        {
+                                          'color' => undef,
+                                          'username' => 'roman_romets',
+                                          'journal_url' => 'http://roman-romets.livejournal.com/',
+                                          'striked' => undef,
+                                          'profile_url' => 'http://roman-romets.livejournal.com/profile',
+                                          'is_identity' => 0,
+                                          'inline_css' => 0,
+                                          'bold' => 1,
+                                          'side_alias' => 0,
+                                          'journal' => 'roman_romets',
+                                          'journaltype' => 'P',
+                                          'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                          'user_alias' => undef,
+                                          'alias' => 0,
+                                          'noctxpopup' => 0,
+                                          'attrs' => undef
+                                        }
+                                      ],
+                          'etime_ts' => undef,
+                          'ctime' => 'November 1 2015, 11:30:31 UTC',
+                          'article' => "\x{41d}\x{443} \x{432}\x{43e}\x{442} \x{438} \x{434}\x{43e}\x{447}\x{438}\x{442}\x{430}\x{43b}."
+                        }
+        };

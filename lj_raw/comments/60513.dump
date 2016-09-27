@@ -1,0 +1,92 @@
+$VAR1 = {
+          '846177' => {
+                        'uname' => 'noleg',
+                        'controls' => undef,
+                        'ctime_ts' => '1118868021',
+                        'talkid' => 3305,
+                        'suspended' => undef,
+                        'dtalkid' => 846177,
+                        'loaded' => 1,
+                        'is_promo' => 0,
+                        'tracked' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/60513.html?thread=846177#t846177',
+                        'siteroot' => 'http://www.livejournal.com',
+                        'stime' => '10 years ago',
+                        'thread' => 846177,
+                        'dname' => 'noleg',
+                        'deleted' => 0,
+                        'subclass' => undef,
+                        'collapsed' => 0,
+                        'userpic' => 'http://l-userpic.livejournal.com/22002062/5104714',
+                        'etime' => undef,
+                        'p_tracked' => 0,
+                        'deepLevel' => 0,
+                        'is_best' => 0,
+                        'parent' => 0,
+                        'noid' => undef,
+                        'actions' => [
+                                     {
+                                       'footer' => 1,
+                                       'name' => 'reply',
+                                       'title' => 'Reply',
+                                       'href' => 'http://alexandrov-g.livejournal.com/60513.html?replyto=846177',
+                                       'allowed' => 1
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/60513.html?thread=846177#t846177',
+                                       'title' => 'link',
+                                       'name' => 'permalink'
+                                     },
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/60513.html?thread=846177#t846177',
+                                       'allowed' => 1,
+                                       'title' => 'Collapse',
+                                       'name' => 'collapse'
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/60513.html?thread=846177#t846177',
+                                       'name' => 'expand',
+                                       'title' => 'Expand'
+                                     }
+                                   ],
+                        'below' => undef,
+                        'ipaddr' => undef,
+                        'leafclass' => undef,
+                        'margin' => 0,
+                        'subject' => '',
+                        'massactions' => 0,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'shown' => 1,
+                        'poster' => 'alexandrov_g',
+                        'ctime' => 'June 15 2005, 20:40:21 UTC',
+                        'username' => [
+                                      {
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                        'user_alias' => undef,
+                                        'attrs' => undef,
+                                        'alias' => 0,
+                                        'noctxpopup' => 0,
+                                        'is_identity' => 0,
+                                        'striked' => undef,
+                                        'profile_url' => 'http://noleg.livejournal.com/profile',
+                                        'username' => 'noleg',
+                                        'color' => undef,
+                                        'journal_url' => 'http://noleg.livejournal.com/',
+                                        'side_alias' => 0,
+                                        'inline_css' => 0,
+                                        'bold' => 1,
+                                        'journal' => 'noleg',
+                                        'journaltype' => 'P'
+                                      }
+                                    ],
+                        'commenter_journal_base' => 'http://noleg.livejournal.com/',
+                        'etime_ts' => undef,
+                        'article' => "\x{41e}\x{440}\x{433}\x{430}\x{43d}\x{438}\x{437}\x{430}\x{442}\x{43e}\x{440} \"\x{43f}\x{43e}\x{433}\x{440}\x{43e}\x{43c}\x{430} \x{432}\x{435}\x{43b}\x{438}\x{43a}\x{438}\x{445} \x{440}\x{435}\x{444}\x{43e}\x{440}\x{43c}\", \x{43f}\x{440}\x{44b}\x{436}\x{43a}\x{430} \x{432} \x{43f}\x{443}\x{447}\x{438}\x{43d}\x{443} \"\x{43a}\x{430}\x{43f}\x{438}\x{442}\x{430}\x{43b}\x{438}\x{437}\x{43c}\x{430}\", \x{447}\x{442}\x{43e} \x{43e}\x{442}\x{440}\x{438}\x{446}\x{430}\x{43b}\x{43e} \x{43f}\x{440}\x{438}\x{43d}\x{446}\x{438}\x{43f} \x{441}\x{432}\x{44f}\x{449}\x{435}\x{43d}\x{441}\x{442}\x{432}\x{430} \x{432}\x{43b}\x{430}\x{441}\x{442}\x{438} \x{438} \x{43f}\x{440}\x{43e}\x{432}\x{43e}\x{437}\x{433}\x{43b}\x{430}\x{448}\x{430}\x{43b}\x{43e} \x{432}\x{43b}\x{430}\x{441}\x{442}\x{44c} \x{434}\x{435}\x{43d}\x{435}\x{433}, \x{432}\x{435}\x{43b}\x{43e} \x{43a} \x{434}\x{435}\x{433}\x{440}\x{430}\x{434}\x{430}\x{446}\x{438}\x{438} \x{441}\x{43e}\x{441}\x{43b}\x{43e}\x{432}\x{43d}\x{43e}\x{439} \x{43c}\x{43e}\x{440}\x{430}\x{43b}\x{438} \x{438} \x{43a} \x{441}\x{43c}\x{435}\x{440}\x{442}\x{438} \x{433}\x{43e}\x{441}\x{443}\x{434}\x{430}\x{440}\x{441}\x{442}\x{432}\x{430}.. \"\x{427}\x{442}\x{43e} \x{44d}\x{442}\x{43e}, \x{435}\x{441}\x{43b}\x{438} \x{43d}\x{435} \x{438}\x{437}\x{43c}\x{435}\x{43d}\x{430}?\" \x{432}\x{438}\x{437}\x{436}\x{430}\x{43b}\x{438} \x{431}\x{435}\x{441}\x{44b} \x{443}\x{436}\x{435} \x{43d}\x{430} \x{43a}\x{440}\x{430}\x{44e} \x{43f}\x{440}\x{43e}\x{43f}\x{430}\x{441}\x{442}\x{438} (\x{41c}\x{438}\x{43b}\x{44e}\x{43a}\x{43e}\x{432}).<br />\x{414}\x{435}\x{439}\x{441}\x{442}\x{432}\x{438}\x{442}\x{435}\x{43b}\x{44c}\x{43d}\x{43e}, \x{447}\x{442}\x{43e}? \"\x{411}\x{43e}\x{433} \x{437}\x{43d}\x{430}\x{435}\x{442}\"..<br />\x{412}\x{435}\x{434}\x{44c} \x{443}\x{436}\x{435} \x{447}\x{435}\x{440}\x{435}\x{437} \x{43f}\x{44f}\x{442}\x{44c}\x{434}\x{435}\x{441}\x{44f}\x{442} \x{43b}\x{435}\x{442} \x{441}\x{43b}\x{435}\x{434}\x{443}\x{435}\x{442} \"\x{43e}\x{442}\x{440}\x{438}\x{446}\x{430}\x{43d}\x{438}\x{435} \x{43e}\x{442}\x{440}\x{438}\x{446}\x{430}\x{43d}\x{438}\x{44f}\" \x{438} \x{440}\x{44b}\x{432}\x{43e}\x{43a} \x{432} \"\x{440}\x{443}\x{441}\x{441}\x{43a}\x{43e}\x{435} \x{43d}\x{435}\x{431}\x{43e}\" <br />(\x{441}\x{431}\x{440}\x{43e}\x{441} \x{432}\x{435}\x{442}\x{445}\x{43e}\x{439} \"\x{43a}\x{43e}\x{436}\x{438}\".. \x{43e}\x{442}\x{440}\x{438}\x{446}\x{430}\x{43d}\x{438}\x{435} \x{432}\x{43b}\x{430}\x{441}\x{442}\x{438} \x{432}\x{435}\x{442}\x{445}\x{43e}\x{437}\x{430}\x{432}\x{435}\x{442}\x{43d}\x{43e}\x{433}\x{43e} \"\x{442}\x{435}\x{43b}\x{44c}\x{446}\x{430}\"). ",
+                        'deleted_poster' => undef,
+                        'upictitle' => 'noleg: pic#22002062',
+                        'level' => 1,
+                        'above' => undef
+                      }
+        };

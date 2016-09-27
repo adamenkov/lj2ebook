@@ -1,0 +1,182 @@
+$VAR1 = {
+          '578719' => {
+                        'deleted' => 0,
+                        'dname' => 'losurr',
+                        'etime' => undef,
+                        'userpic' => undef,
+                        'subclass' => undef,
+                        'collapsed' => 0,
+                        'is_best' => 0,
+                        'deepLevel' => 0,
+                        'p_tracked' => 0,
+                        'parent' => 0,
+                        'uname' => 'losurr',
+                        'suspended' => undef,
+                        'talkid' => 2260,
+                        'ctime_ts' => '1111007290',
+                        'controls' => undef,
+                        'tracked' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/47519.html?thread=578719#t578719',
+                        'is_promo' => 0,
+                        'loaded' => 1,
+                        'dtalkid' => 578719,
+                        'thread' => 578719,
+                        'stime' => '10 years ago',
+                        'siteroot' => 'http://www.livejournal.com',
+                        'poster' => 'alexandrov_g',
+                        'upictitle' => 'losurr: pic#47626160',
+                        'deleted_poster' => undef,
+                        'etime_ts' => undef,
+                        'username' => [
+                                      {
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                        'user_alias' => undef,
+                                        'noctxpopup' => 0,
+                                        'alias' => 0,
+                                        'attrs' => undef,
+                                        'color' => undef,
+                                        'username' => 'losurr',
+                                        'journal_url' => 'http://losurr.livejournal.com/',
+                                        'profile_url' => 'http://losurr.livejournal.com/profile',
+                                        'striked' => 1,
+                                        'is_identity' => 0,
+                                        'bold' => 1,
+                                        'inline_css' => 0,
+                                        'side_alias' => 0,
+                                        'journal' => 'losurr',
+                                        'journaltype' => 'P'
+                                      }
+                                    ],
+                        'article' => "\x{43a} \x{441}\x{432}\x{43e}\x{435}\x{43c}\x{443} \x{441}\x{442}\x{44b}\x{434}\x{443} \x{43d}\x{435} \x{43c}\x{43e}\x{433}\x{443} \x{438}\x{434}\x{435}\x{43d}\x{442}\x{438}\x{444}\x{438}\x{446}\x{438}\x{440}\x{43e}\x{432}\x{430}\x{442}\x{44c} \x{447}\x{435}\x{43b}\x{43e}\x{432}\x{435}\x{43a}\x{430} \x{441} \x{431}\x{43e}\x{440}\x{43e}\x{434}\x{43a}\x{43e}\x{439} - \x{43d}\x{435} \x{43f}\x{440}\x{43e}\x{441}\x{432}\x{435}\x{442}\x{438}\x{442}\x{435}?",
+                        'commenter_journal_base' => 'http://losurr.livejournal.com/',
+                        'ctime' => 'March 16 2005, 21:08:10 UTC',
+                        'above' => undef,
+                        'level' => 1,
+                        'ipaddr' => undef,
+                        'below' => undef,
+                        'noid' => undef,
+                        'actions' => [
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?replyto=578719',
+                                       'allowed' => 1,
+                                       'footer' => 1,
+                                       'name' => 'reply',
+                                       'title' => 'Reply'
+                                     },
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=578719#t578719',
+                                       'allowed' => 1,
+                                       'name' => 'permalink',
+                                       'title' => 'link'
+                                     },
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=578719#t578719',
+                                       'allowed' => 1,
+                                       'name' => 'collapse',
+                                       'title' => 'Collapse'
+                                     },
+                                     {
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=578719#t578719',
+                                       'allowed' => 1,
+                                       'name' => 'expand',
+                                       'title' => 'Expand'
+                                     }
+                                   ],
+                        'subject' => '',
+                        'margin' => 0,
+                        'leafclass' => undef,
+                        'shown' => 1,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'massactions' => 0
+                      },
+          '579487' => {
+                        'suspended' => undef,
+                        'controls' => undef,
+                        'ctime_ts' => '1111048178',
+                        'talkid' => 2263,
+                        'uname' => 'yursky',
+                        'stime' => '10 years ago',
+                        'thread' => 579487,
+                        'siteroot' => 'http://www.livejournal.com',
+                        'is_promo' => 0,
+                        'tracked' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/47519.html?thread=579487#t579487',
+                        'dtalkid' => 579487,
+                        'loaded' => 1,
+                        'userpic' => 'http://l-userpic.livejournal.com/15128468/1893520',
+                        'etime' => undef,
+                        'subclass' => undef,
+                        'collapsed' => 0,
+                        'dname' => 'yursky',
+                        'deleted' => 0,
+                        'parent' => 578719,
+                        'is_best' => 0,
+                        'p_tracked' => 0,
+                        'deepLevel' => 0,
+                        'margin' => 30,
+                        'subject' => '',
+                        'leafclass' => undef,
+                        'below' => undef,
+                        'ipaddr' => undef,
+                        'actions' => [
+                                     {
+                                       'name' => 'reply',
+                                       'title' => 'Reply',
+                                       'footer' => 1,
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?replyto=579487'
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=579487#t579487',
+                                       'name' => 'permalink',
+                                       'title' => 'link'
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=579487#t579487',
+                                       'title' => 'Collapse',
+                                       'name' => 'collapse'
+                                     },
+                                     {
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/47519.html?thread=579487#t579487',
+                                       'title' => 'Expand',
+                                       'name' => 'expand'
+                                     }
+                                   ],
+                        'noid' => undef,
+                        'shown' => 1,
+                        'massactions' => 0,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'deleted_poster' => undef,
+                        'upictitle' => 'yursky: 3',
+                        'username' => [
+                                      {
+                                        'user_alias' => undef,
+                                        'attrs' => undef,
+                                        'alias' => 0,
+                                        'noctxpopup' => 0,
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                        'journal' => 'yursky',
+                                        'journaltype' => 'P',
+                                        'is_identity' => 0,
+                                        'username' => 'yursky',
+                                        'journal_url' => 'http://yursky.livejournal.com/',
+                                        'color' => undef,
+                                        'profile_url' => 'http://yursky.livejournal.com/profile',
+                                        'striked' => undef,
+                                        'side_alias' => 0,
+                                        'bold' => 1,
+                                        'inline_css' => 0
+                                      }
+                                    ],
+                        'etime_ts' => undef,
+                        'article' => "\x{41c}\x{430}\x{439}\x{43a}\x{43b} \x{41a}\x{435}\x{43d}\x{442}\x{441}\x{43a}\x{438}\x{439}.",
+                        'ctime' => 'March 17 2005, 08:29:38 UTC',
+                        'commenter_journal_base' => 'http://yursky.livejournal.com/',
+                        'poster' => 'alexandrov_g',
+                        'above' => 578719,
+                        'level' => 2
+                      }
+        };

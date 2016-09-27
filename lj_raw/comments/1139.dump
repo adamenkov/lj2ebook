@@ -1,0 +1,92 @@
+$VAR1 = {
+          '13583731' => {
+                          'poster' => 'alexandrov_g',
+                          'commenter_journal_base' => 'http://ciakume.livejournal.com/',
+                          'username' => [
+                                        {
+                                          'journal' => 'ciakume',
+                                          'journaltype' => 'P',
+                                          'striked' => undef,
+                                          'profile_url' => 'http://ciakume.livejournal.com/profile',
+                                          'color' => undef,
+                                          'username' => 'ciakume',
+                                          'journal_url' => 'http://ciakume.livejournal.com/',
+                                          'is_identity' => 0,
+                                          'inline_css' => 0,
+                                          'bold' => 1,
+                                          'side_alias' => 0,
+                                          'user_alias' => undef,
+                                          'noctxpopup' => 0,
+                                          'alias' => 0,
+                                          'attrs' => undef,
+                                          'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3'
+                                        }
+                                      ],
+                          'etime_ts' => undef,
+                          'article' => "\x{415}\x{434}\x{438}\x{43d}\x{441}\x{442}\x{432}\x{435}\x{43d}\x{43d}\x{43e}\x{435}, \x{447}\x{442}\x{43e} \x{440}\x{430}\x{434}\x{443}\x{435}\x{442} \x{43c}\x{435}\x{43d}\x{44f} \x{432} \x{420}\x{43e}\x{441}\x{441}\x{438}\x{438}, \x{44d}\x{442}\x{43e}, \x{432} \x{43e}\x{442}\x{43b}\x{438}\x{447}\x{438}\x{435} \x{43e}\x{442} \x{421}\x{428}\x{410}, \x{432}\x{43e}\x{437}\x{43c}\x{43e}\x{436}\x{43d}\x{43e}\x{441}\x{442}\x{44c} \x{432}\x{44b}\x{431}\x{43e}\x{440}\x{430} - \x{436}\x{438}\x{442}\x{44c} \x{441} \x{43a}\x{440}\x{435}\x{434}\x{438}\x{442}\x{430}\x{43c}\x{438} \x{438}\x{43b}\x{438} \x{431}\x{435}\x{437}",
+                          'ctime' => 'September 3 2012, 06:24:27 UTC',
+                          'upictitle' => "ciakume: \x{41c}\x{438}\x{43b}\x{43e}\x{441}\x{442}\x{44c}",
+                          'deleted_poster' => undef,
+                          'level' => 1,
+                          'above' => undef,
+                          'noid' => undef,
+                          'actions' => [
+                                       {
+                                         'footer' => 1,
+                                         'name' => 'reply',
+                                         'title' => 'Reply',
+                                         'href' => 'http://alexandrov-g.livejournal.com/1139.html?replyto=13583731',
+                                         'allowed' => 1
+                                       },
+                                       {
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/1139.html?thread=13583731#t13583731',
+                                         'title' => 'link',
+                                         'name' => 'permalink'
+                                       },
+                                       {
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/1139.html?thread=13583731#t13583731',
+                                         'title' => 'Collapse',
+                                         'name' => 'collapse'
+                                       },
+                                       {
+                                         'allowed' => 1,
+                                         'href' => 'http://alexandrov-g.livejournal.com/1139.html?thread=13583731#t13583731',
+                                         'name' => 'expand',
+                                         'title' => 'Expand'
+                                       }
+                                     ],
+                          'ipaddr' => undef,
+                          'below' => undef,
+                          'leafclass' => undef,
+                          'subject' => '',
+                          'margin' => 0,
+                          'statprefix' => 'http://l-stat.livejournal.net',
+                          'massactions' => 0,
+                          'shown' => 1,
+                          'deleted' => 0,
+                          'dname' => 'ciakume',
+                          'collapsed' => 0,
+                          'subclass' => undef,
+                          'etime' => undef,
+                          'userpic' => 'http://l-userpic.livejournal.com/118463031/51814505',
+                          'deepLevel' => 0,
+                          'p_tracked' => 0,
+                          'is_best' => 0,
+                          'parent' => 0,
+                          'uname' => 'ciakume',
+                          'talkid' => 53061,
+                          'ctime_ts' => '1346653467',
+                          'controls' => undef,
+                          'suspended' => undef,
+                          'loaded' => 1,
+                          'dtalkid' => 13583731,
+                          'tracked' => 0,
+                          'thread_url' => 'http://alexandrov-g.livejournal.com/1139.html?thread=13583731#t13583731',
+                          'is_promo' => 0,
+                          'siteroot' => 'http://www.livejournal.com',
+                          'stime' => '3 years ago',
+                          'thread' => 13583731
+                        }
+        };

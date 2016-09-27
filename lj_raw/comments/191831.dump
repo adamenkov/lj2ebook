@@ -1,0 +1,73 @@
+$VAR1 = {
+          '7980375' => {
+                         'dtalkid' => 7980375,
+                         'etime' => undef,
+                         'is_best' => 0,
+                         'dname' => '',
+                         'talkid' => 31173,
+                         'ipaddr' => undef,
+                         'uname' => '',
+                         'username' => undef,
+                         'shown' => 1,
+                         'tracked' => 0,
+                         'ctime' => 'August 18 2009, 22:54:12 UTC',
+                         'p_tracked' => 0,
+                         'deleted' => 0,
+                         'stime' => '6 years ago',
+                         'collapsed' => 0,
+                         'siteroot' => 'http://www.livejournal.com',
+                         'parent' => 0,
+                         'userpic' => undef,
+                         'subject' => '',
+                         'actions' => [
+                                      {
+                                        'allowed' => 1,
+                                        'footer' => 1,
+                                        'title' => 'Reply',
+                                        'href' => 'http://alexandrov-g.livejournal.com/191831.html?replyto=7980375',
+                                        'name' => 'reply'
+                                      },
+                                      {
+                                        'allowed' => 1,
+                                        'name' => 'permalink',
+                                        'href' => 'http://alexandrov-g.livejournal.com/191831.html?thread=7980375#t7980375',
+                                        'title' => 'link'
+                                      },
+                                      {
+                                        'title' => 'Collapse',
+                                        'name' => 'collapse',
+                                        'href' => 'http://alexandrov-g.livejournal.com/191831.html?thread=7980375#t7980375',
+                                        'allowed' => 1
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/191831.html?thread=7980375#t7980375',
+                                        'name' => 'expand',
+                                        'title' => 'Expand',
+                                        'allowed' => 1
+                                      }
+                                    ],
+                         'level' => 1,
+                         'thread' => 7980375,
+                         'deleted_poster' => undef,
+                         'margin' => 0,
+                         'is_promo' => 0,
+                         'noid' => undef,
+                         'leafclass' => undef,
+                         'controls' => undef,
+                         'statprefix' => 'http://l-stat.livejournal.net',
+                         'loaded' => 1,
+                         'below' => undef,
+                         'poster' => 'alexandrov_g',
+                         'subclass' => undef,
+                         'thread_url' => 'http://alexandrov-g.livejournal.com/191831.html?thread=7980375#t7980375',
+                         'deepLevel' => 0,
+                         'above' => undef,
+                         'article' => "[\x{434}\x{43e}\x{432}\x{43e}\x{43b}\x{44c}\x{43d}\x{43e} \x{43f}\x{43e}\x{442}\x{438}\x{440}\x{430}\x{44f} \x{440}\x{443}\x{43a}\x{438}]<br />\x{41d}\x{435}\x{443}\x{436}\x{435}\x{43b}\x{438} \x{43c}\x{44b} \x{432}\x{438}\x{434}\x{438}\x{43c} \x{43d}\x{430}\x{447}\x{430}\x{43b}\x{43e} \x{43d}\x{43e}\x{432}\x{43e}\x{439} \x{441}\x{435}\x{440}\x{438}\x{438}?",
+                         'upictitle' => undef,
+                         'ctime_ts' => '1250636052',
+                         'massactions' => 0,
+                         'etime_ts' => undef,
+                         'commenter_journal_base' => '',
+                         'suspended' => undef
+                       }
+        };

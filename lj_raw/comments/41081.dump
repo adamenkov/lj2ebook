@@ -1,0 +1,92 @@
+$VAR1 = {
+          '481657' => {
+                        'ipaddr' => undef,
+                        'below' => undef,
+                        'noid' => undef,
+                        'actions' => [
+                                     {
+                                       'footer' => 1,
+                                       'name' => 'reply',
+                                       'title' => 'Reply',
+                                       'href' => 'http://alexandrov-g.livejournal.com/41081.html?replyto=481657',
+                                       'allowed' => 1
+                                     },
+                                     {
+                                       'name' => 'permalink',
+                                       'title' => 'link',
+                                       'allowed' => 1,
+                                       'href' => 'http://alexandrov-g.livejournal.com/41081.html?thread=481657#t481657'
+                                     },
+                                     {
+                                       'name' => 'collapse',
+                                       'title' => 'Collapse',
+                                       'href' => 'http://alexandrov-g.livejournal.com/41081.html?thread=481657#t481657',
+                                       'allowed' => 1
+                                     },
+                                     {
+                                       'title' => 'Expand',
+                                       'name' => 'expand',
+                                       'href' => 'http://alexandrov-g.livejournal.com/41081.html?thread=481657#t481657',
+                                       'allowed' => 1
+                                     }
+                                   ],
+                        'subject' => "\x{427}\x{443}\x{442}\x{44c} \x{447}\x{442}\x{43e} -- \x{441}\x{440}\x{430}\x{437}\x{443} \x{41e}\x{434}\x{435}\x{441}\x{441}\x{430}.",
+                        'margin' => 0,
+                        'leafclass' => undef,
+                        'shown' => 1,
+                        'statprefix' => 'http://l-stat.livejournal.net',
+                        'massactions' => 0,
+                        'poster' => 'alexandrov_g',
+                        'upictitle' => "zhur_zhal: \x{410}\x{43f}\x{435}\x{43b}\x{44c}\x{441}\x{438}\x{43d}",
+                        'deleted_poster' => undef,
+                        'username' => [
+                                      {
+                                        'user_alias' => undef,
+                                        'attrs' => undef,
+                                        'noctxpopup' => 0,
+                                        'alias' => 0,
+                                        'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                        'journal' => 'zhur_zhal',
+                                        'journaltype' => 'P',
+                                        'is_identity' => 0,
+                                        'striked' => undef,
+                                        'profile_url' => 'http://zhur-zhal.livejournal.com/profile',
+                                        'journal_url' => 'http://zhur-zhal.livejournal.com/',
+                                        'username' => 'zhur_zhal',
+                                        'color' => undef,
+                                        'side_alias' => 0,
+                                        'inline_css' => 0,
+                                        'bold' => 1
+                                      }
+                                    ],
+                        'ctime' => 'February 3 2005, 23:26:50 UTC',
+                        'etime_ts' => undef,
+                        'commenter_journal_base' => 'http://zhur-zhal.livejournal.com/',
+                        'article' => "\x{411}\x{435}\x{440}\x{438}\x{442}\x{435} \x{432}\x{44b}\x{448}\x{435} - \x{411}\x{435}\x{440}\x{434}\x{438}\x{447}\x{435}\x{432}.",
+                        'above' => undef,
+                        'level' => 1,
+                        'uname' => 'zhur_zhal',
+                        'suspended' => undef,
+                        'talkid' => 1881,
+                        'ctime_ts' => '1107473210',
+                        'controls' => undef,
+                        'tracked' => 0,
+                        'thread_url' => 'http://alexandrov-g.livejournal.com/41081.html?thread=481657#t481657',
+                        'is_promo' => 0,
+                        'loaded' => 1,
+                        'dtalkid' => 481657,
+                        'stime' => '10 years ago',
+                        'thread' => 481657,
+                        'siteroot' => 'http://www.livejournal.com',
+                        'deleted' => 0,
+                        'dname' => 'zhur_zhal',
+                        'etime' => undef,
+                        'userpic' => 'http://l-userpic.livejournal.com/25860889/5530672',
+                        'collapsed' => 0,
+                        'subclass' => undef,
+                        'is_best' => 0,
+                        'deepLevel' => 0,
+                        'p_tracked' => 0,
+                        'parent' => 0
+                      }
+        };

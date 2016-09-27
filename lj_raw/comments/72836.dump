@@ -1,0 +1,182 @@
+$VAR1 = {
+          '1103492' => {
+                         'ipaddr' => undef,
+                         'below' => undef,
+                         'noid' => undef,
+                         'actions' => [
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?replyto=1103492',
+                                        'allowed' => 1,
+                                        'footer' => 1,
+                                        'name' => 'reply',
+                                        'title' => 'Reply'
+                                      },
+                                      {
+                                        'allowed' => 1,
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1103492#t1103492',
+                                        'title' => 'link',
+                                        'name' => 'permalink'
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1103492#t1103492',
+                                        'allowed' => 1,
+                                        'name' => 'collapse',
+                                        'title' => 'Collapse'
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1103492#t1103492',
+                                        'allowed' => 1,
+                                        'name' => 'expand',
+                                        'title' => 'Expand'
+                                      }
+                                    ],
+                         'margin' => 0,
+                         'subject' => '',
+                         'leafclass' => undef,
+                         'shown' => 1,
+                         'statprefix' => 'http://l-stat.livejournal.net',
+                         'massactions' => 0,
+                         'poster' => 'alexandrov_g',
+                         'upictitle' => 'krot: chempion',
+                         'deleted_poster' => undef,
+                         'username' => [
+                                       {
+                                         'journal' => '_krot_',
+                                         'journaltype' => 'P',
+                                         'color' => undef,
+                                         'username' => '_krot_',
+                                         'journal_url' => 'http://users.livejournal.com/_krot_/',
+                                         'striked' => undef,
+                                         'profile_url' => 'http://users.livejournal.com/_krot_/profile',
+                                         'is_identity' => 0,
+                                         'bold' => 1,
+                                         'inline_css' => 0,
+                                         'side_alias' => 0,
+                                         'user_alias' => undef,
+                                         'noctxpopup' => 0,
+                                         'alias' => 0,
+                                         'attrs' => undef,
+                                         'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3'
+                                       }
+                                     ],
+                         'commenter_journal_base' => 'http://users.livejournal.com/_krot_/',
+                         'etime_ts' => undef,
+                         'article' => "\x{415}\x{441}\x{43b}\x{438} \x{44f} \x{412}\x{430}\x{441} \x{43f}\x{440}\x{430}\x{432}\x{438}\x{43b}\x{44c}\x{43d}\x{43e} \x{43f}\x{43e}\x{43d}\x{44f}\x{43b}, \x{432}\x{44b} \x{445}\x{43e}\x{442}\x{438}\x{442}\x{435} \x{43f}\x{43e}\x{434}\x{432}\x{435}\x{441}\x{442}\x{438} \x{432}\x{441}\x{435} \x{43a} \x{43c}\x{44b}\x{441}\x{43b}\x{438}, \x{447}\x{442}\x{43e} \x{43a}\x{440}\x{430}\x{445} \x{411}\x{440}\x{438}\x{442}\x{430}\x{43d}\x{441}\x{43a}\x{43e}\x{439} \x{418}\x{43c}\x{43f}\x{435}\x{440}\x{438}\x{438} \x{438}\x{43c}\x{435}\x{43b} \x{43f}\x{43e}\x{434} \x{441}\x{43e}\x{431}\x{43e}\x{439} \x{432}\x{43e}\x{432}\x{441}\x{435} \x{43d}\x{435} \x{444}\x{438}\x{43d}\x{430}\x{43d}\x{441}\x{43e}\x{432}\x{44b}\x{435} \x{43a}\x{43e}\x{440}\x{43d}\x{438}. \x{415}\x{441}\x{43b}\x{438} \x{442}\x{430}\x{43a}, \x{442}\x{43e} \x{43f}\x{43e}\x{43b}\x{43d}\x{43e}\x{441}\x{442}\x{44c}\x{44e} \x{441} \x{44d}\x{442}\x{438}\x{43c} \x{441}\x{43e}\x{433}\x{43b}\x{430}\x{441}\x{435}\x{43d}.",
+                         'ctime' => 'September 22 2005, 19:11:51 UTC',
+                         'above' => undef,
+                         'level' => 1,
+                         'uname' => '_krot_',
+                         'suspended' => undef,
+                         'talkid' => 4310,
+                         'ctime_ts' => '1127416311',
+                         'controls' => undef,
+                         'thread_url' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1103492#t1103492',
+                         'tracked' => 0,
+                         'is_promo' => 0,
+                         'loaded' => 1,
+                         'dtalkid' => 1103492,
+                         'stime' => '10 years ago',
+                         'thread' => 1103492,
+                         'siteroot' => 'http://www.livejournal.com',
+                         'deleted' => 0,
+                         'dname' => '_krot_',
+                         'etime' => undef,
+                         'userpic' => 'http://l-userpic.livejournal.com/12229512/1049108',
+                         'collapsed' => 0,
+                         'subclass' => undef,
+                         'is_best' => 0,
+                         'deepLevel' => 0,
+                         'p_tracked' => 0,
+                         'parent' => 0
+                       },
+          '1104260' => {
+                         'above' => undef,
+                         'level' => 1,
+                         'deleted_poster' => undef,
+                         'upictitle' => 'Easy: victory',
+                         'commenter_journal_base' => 'http://easy-reader.livejournal.com/',
+                         'username' => [
+                                       {
+                                         'side_alias' => 0,
+                                         'inline_css' => 0,
+                                         'bold' => 1,
+                                         'is_identity' => 0,
+                                         'username' => 'easy_reader',
+                                         'journal_url' => 'http://easy-reader.livejournal.com/',
+                                         'color' => undef,
+                                         'striked' => undef,
+                                         'profile_url' => 'http://easy-reader.livejournal.com/profile',
+                                         'journaltype' => 'P',
+                                         'journal' => 'easy_reader',
+                                         'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                         'attrs' => undef,
+                                         'noctxpopup' => 0,
+                                         'alias' => 0,
+                                         'user_alias' => undef
+                                       }
+                                     ],
+                         'article' => "\x{447}\x{442}\x{43e} \x{434}\x{43b}\x{44f} \x{432}\x{44b}\x{43f}\x{43b}\x{430}\x{442}\x{44b} \x{43a}\x{43e}\x{43d}\x{442}\x{440}\x{438}\x{431}\x{443}\x{446}\x{438}\x{439} \x{413}\x{435}\x{440}\x{43c}\x{430}\x{43d}\x{438}\x{44f} \x{43f}\x{43e}\x{441}\x{442}\x{440}\x{43e}\x{438}\x{43b}\x{430} \x{441}\x{43f}\x{435}\x{446}\x{445}\x{440}\x{430}\x{43d}\x{438}\x{43b}\x{438}\x{449}\x{435}, \x{43e}\x{441}\x{43d}\x{430}\x{449}\x{435}\x{43d}\x{43d}\x{43e}\x{435} \x{441}\x{430}\x{43c}\x{44b}\x{43c}\x{438} \x{441}\x{43e}\x{432}\x{440}\x{435}\x{43c}\x{435}\x{43d}\x{43d}\x{44b}\x{43c}\x{438} \x{43d}\x{430} \x{442}\x{43e}\x{442} \x{43c}\x{43e}\x{43c}\x{435}\x{43d}\x{442} \x{43e}\x{445}\x{440}\x{430}\x{43d}\x{43d}\x{44b}\x{43c}\x{438} \x{441}\x{438}\x{441}\x{442}\x{435}\x{43c}\x{430}\x{43c}\x{438}, \x{437}\x{430}\x{442}\x{43e}\x{43f}\x{43b}\x{44f}\x{432}\x{448}\x{438}\x{43c}\x{438} \x{445}\x{440}\x{430}\x{43d}\x{438}\x{43b}\x{438}\x{449}\x{435} \x{432} \x{441}\x{43b}\x{443}\x{447}\x{430}\x{435} \x{43d}\x{435}\x{441}\x{430}\x{43d}\x{43a}\x{446}\x{438}\x{43e}\x{43d}\x{438}\x{440}\x{43e}\x{432}\x{430}\x{43d}\x{43d}\x{43e}\x{433}\x{43e} \x{43f}\x{440}\x{43e}\x{43d}\x{438}\x{43a}\x{43d}\x{43e}\x{432}\x{435}\x{43d}\x{438}\x{44f}.<br /><br />\x{412}\x{44b} \x{43d}\x{435} \x{43c}\x{43e}\x{433}\x{43b}\x{438} \x{431}\x{44b} \x{43f}\x{43e}\x{434}\x{442}\x{432}\x{435}\x{440}\x{434}\x{438}\x{442}\x{44c} \x{438}\x{43b}\x{438} \x{43e}\x{43f}\x{440}\x{43e}\x{432}\x{435}\x{440}\x{433}\x{43d}\x{443}\x{442}\x{44c} \x{44d}\x{442}\x{43e}\x{442} \x{444}\x{430}\x{43a}\x{442}.",
+                         'ctime' => 'September 22 2005, 23:11:13 UTC',
+                         'etime_ts' => undef,
+                         'poster' => 'alexandrov_g',
+                         'shown' => 1,
+                         'massactions' => 0,
+                         'statprefix' => 'http://l-stat.livejournal.net',
+                         'margin' => 0,
+                         'subject' => "\x{421}\x{43b}\x{44b}\x{448}\x{430}\x{43b} \x{442}\x{430}\x{43a}\x{443}\x{44e} \x{431}\x{430}\x{439}\x{43a}\x{443},",
+                         'leafclass' => undef,
+                         'below' => undef,
+                         'ipaddr' => undef,
+                         'actions' => [
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?replyto=1104260',
+                                        'allowed' => 1,
+                                        'footer' => 1,
+                                        'name' => 'reply',
+                                        'title' => 'Reply'
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1104260#t1104260',
+                                        'allowed' => 1,
+                                        'name' => 'permalink',
+                                        'title' => 'link'
+                                      },
+                                      {
+                                        'name' => 'collapse',
+                                        'title' => 'Collapse',
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1104260#t1104260',
+                                        'allowed' => 1
+                                      },
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1104260#t1104260',
+                                        'allowed' => 1,
+                                        'name' => 'expand',
+                                        'title' => 'Expand'
+                                      }
+                                    ],
+                         'noid' => undef,
+                         'parent' => 0,
+                         'is_best' => 0,
+                         'p_tracked' => 0,
+                         'deepLevel' => 0,
+                         'userpic' => 'http://l-userpic.livejournal.com/29518039/2513956',
+                         'etime' => undef,
+                         'subclass' => undef,
+                         'collapsed' => 0,
+                         'dname' => 'easy_reader',
+                         'deleted' => 0,
+                         'stime' => '10 years ago',
+                         'thread' => 1104260,
+                         'siteroot' => 'http://www.livejournal.com',
+                         'is_promo' => 0,
+                         'tracked' => 0,
+                         'thread_url' => 'http://alexandrov-g.livejournal.com/72836.html?thread=1104260#t1104260',
+                         'dtalkid' => 1104260,
+                         'loaded' => 1,
+                         'suspended' => undef,
+                         'controls' => undef,
+                         'ctime_ts' => '1127430673',
+                         'talkid' => 4313,
+                         'uname' => 'easy_reader'
+                       }
+        };

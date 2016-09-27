@@ -1,0 +1,182 @@
+$VAR1 = {
+          '38143' => {
+                       'stime' => '11 years ago',
+                       'thread' => 38143,
+                       'siteroot' => 'http://www.livejournal.com',
+                       'is_promo' => 0,
+                       'tracked' => 0,
+                       'thread_url' => 'http://alexandrov-g.livejournal.com/7423.html?thread=38143#t38143',
+                       'dtalkid' => 38143,
+                       'loaded' => 1,
+                       'suspended' => undef,
+                       'controls' => undef,
+                       'ctime_ts' => '1090836796',
+                       'talkid' => 148,
+                       'uname' => 'alexandrov_g',
+                       'parent' => 37887,
+                       'is_best' => 0,
+                       'p_tracked' => 0,
+                       'deepLevel' => 0,
+                       'userpic' => 'http://l-userpic.livejournal.com/15617695/3348604',
+                       'etime' => undef,
+                       'subclass' => undef,
+                       'collapsed' => 0,
+                       'dname' => 'alexandrov_g',
+                       'deleted' => 0,
+                       'shown' => 1,
+                       'massactions' => 0,
+                       'statprefix' => 'http://l-stat.livejournal.net',
+                       'margin' => 30,
+                       'subject' => '',
+                       'leafclass' => undef,
+                       'below' => undef,
+                       'ipaddr' => undef,
+                       'actions' => [
+                                    {
+                                      'name' => 'reply',
+                                      'title' => 'Reply',
+                                      'footer' => 1,
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?replyto=38143'
+                                    },
+                                    {
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=38143#t38143',
+                                      'name' => 'permalink',
+                                      'title' => 'link'
+                                    },
+                                    {
+                                      'title' => 'Collapse',
+                                      'name' => 'collapse',
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=38143#t38143'
+                                    },
+                                    {
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=38143#t38143',
+                                      'allowed' => 1,
+                                      'name' => 'expand',
+                                      'title' => 'Expand'
+                                    }
+                                  ],
+                       'noid' => undef,
+                       'above' => 37887,
+                       'level' => 2,
+                       'deleted_poster' => undef,
+                       'upictitle' => 'alexandrov_g: pic#15617695',
+                       'username' => [
+                                     {
+                                       'journaltype' => 'P',
+                                       'journal' => 'alexandrov_g',
+                                       'bold' => 1,
+                                       'inline_css' => 0,
+                                       'side_alias' => 0,
+                                       'journal_url' => 'http://alexandrov-g.livejournal.com/',
+                                       'username' => 'alexandrov_g',
+                                       'color' => undef,
+                                       'profile_url' => 'http://alexandrov-g.livejournal.com/profile',
+                                       'striked' => undef,
+                                       'is_identity' => 0,
+                                       'noctxpopup' => 0,
+                                       'alias' => 0,
+                                       'attrs' => undef,
+                                       'user_alias' => undef,
+                                       'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3'
+                                     }
+                                   ],
+                       'article' => "<i>\x{427}\x{443}\x{432}\x{441}\x{442}\x{432}\x{443}\x{435}\x{442}\x{441}\x{44f}, \x{432}\x{44b} \x{43d}\x{435} \x{447}\x{438}\x{442}\x{430}\x{43b}\x{438} \x{44d}\x{43a}\x{441}\x{43f}\x{435}\x{440}\x{442}\x{438}\x{437}\x{44b} \x{43f}\x{43e}\x{43a}\x{43e}\x{439}\x{43d}\x{43e}\x{433}\x{43e} \x{413}\x{438}\x{440}\x{435}\x{43d}\x{43a}\x{43e}.</i><br /><br />\x{41a}\x{430}\x{44e}\x{441}\x{44c}, \x{43d}\x{435} \x{447}\x{438}\x{442}\x{430}\x{43b}. \x{418} \x{432}\x{43e}\x{43e}\x{431}\x{449}\x{435} \x{43e} \x{43d}\x{451}\x{43c} \x{443}\x{437}\x{43d}\x{430}\x{43b}, \x{442}\x{43e}\x{43b}\x{44c}\x{43a}\x{43e} \x{43a}\x{43e}\x{433}\x{434}\x{430} \x{432}\x{44b} \x{443}\x{43f}\x{43e}\x{43c}\x{44f}\x{43d}\x{443}\x{43b}\x{438} \x{43d}\x{430} \x{441}\x{432}\x{43e}\x{435}\x{439} \x{441}\x{442}\x{440}\x{430}\x{43d}\x{438}\x{447}\x{43a}\x{435} \x{43e} \x{435}\x{433}\x{43e} \x{441}\x{432}\x{43e}\x{435}\x{432}\x{440}\x{435}\x{43c}\x{435}\x{43d}\x{43d}\x{43e}\x{439} \x{43a}\x{43e}\x{43d}\x{447}\x{438}\x{43d}\x{435}. \x{427}\x{442}\x{43e} \x{43a}\x{430}\x{441}\x{430}\x{435}\x{442}\x{441}\x{44f} \x{43f}\x{43e}\x{441}\x{442}\x{430}\x{43d}\x{43e}\x{432}\x{43b}\x{435}\x{43d}\x{438}\x{44f} \x{412}\x{421}, \x{442}\x{43e} \x{442}\x{430}\x{43c} \x{432}\x{435}\x{434}\x{44c} \x{440}\x{435}\x{447}\x{44c} \x{438}\x{434}\x{451}\x{442} \x{43e} \x{444}\x{430}\x{43a}\x{442}\x{435} \x{434}\x{435}\x{43f}\x{43e}\x{440}\x{442}\x{430}\x{446}\x{438}\x{438}, \x{430} \x{43d}\x{435} \x{43e} \x{444}\x{430}\x{43a}\x{442}\x{430}\x{445} \x{441}\x{43e}\x{442}\x{440}\x{443}\x{434}\x{43d}\x{438}\x{447}\x{435}\x{441}\x{442}\x{432}\x{430} \x{447}\x{435}\x{447}\x{435}\x{43d}\x{446}\x{435}\x{432} \x{441} \x{43d}\x{435}\x{43c}\x{446}\x{430}\x{43c}\x{438}. \x{410} \x{41a}\x{440}\x{44b}\x{43b}\x{43e}\x{432} \x{432}\x{435}\x{434}\x{44c} \x{442}\x{43e}\x{43b}\x{44c}\x{43a}\x{43e} \x{43e}\x{431} \x{44d}\x{442}\x{43e}\x{43c} \x{438} \x{433}\x{43e}\x{432}\x{43e}\x{440}\x{438}\x{442}. \x{422}\x{43e}-\x{435}\x{441}\x{442}\x{44c} \x{440}\x{435}\x{447}\x{44c} \x{43d}\x{435} \x{441}\x{440}\x{430}\x{432}\x{435}\x{434}\x{43b}\x{438}\x{432}\x{43e}\x{441}\x{442}\x{438} \x{43d}\x{430}\x{43a}\x{430}\x{437}\x{430}\x{43d}\x{438}\x{44f}(\x{44f} \x{431}\x{44b} \x{44d}\x{442}\x{43e} \x{43d}\x{430}\x{437}\x{432}\x{430}\x{43b} \x{432}\x{43e}\x{437}\x{434}\x{430}\x{44f}\x{43d}\x{438}\x{435}\x{43c}), \x{430} \x{43e} \x{441}\x{430}\x{43c}\x{43e}\x{43c} \x{43f}\x{440}\x{435}\x{441}\x{442}\x{443}\x{43f}\x{43b}\x{435}\x{43d}\x{438}\x{438}, \x{43a}\x{43e}\x{442}\x{43e}\x{440}\x{43e}\x{435} \x{432}\x{435}\x{434}\x{44c} \x{43c}\x{435}\x{441}\x{442}\x{43e} \x{438}\x{43c}\x{435}\x{43b}\x{43e}. \x{42d}\x{442}\x{43e}\x{433}\x{43e}-\x{442}\x{43e} \x{43d}\x{438}\x{43a}\x{442}\x{43e} \x{43e}\x{441}\x{43f}\x{43e}\x{440}\x{438}\x{432}\x{430}\x{442}\x{44c} \x{43d}\x{435} \x{43c}\x{43e}\x{436}\x{435}\x{442}. \x{422}\x{443}\x{442} \x{443} \x{41a}\x{440}\x{44b}\x{43b}\x{43e}\x{432}\x{430} \x{432}\x{441}\x{435} \x{43a}\x{430}\x{440}\x{442}\x{44b} \x{43d}\x{430} \x{440}\x{443}\x{43a}\x{430}\x{445}.<br /><br /><i>\x{41c}\x{435}\x{43d}\x{44f} \x{43a}\x{443}\x{434}\x{430} \x{431}\x{43e}\x{43b}\x{44c}\x{448}\x{435} \x{431}\x{435}\x{441}\x{43f}\x{43e}\x{43a}\x{43e}\x{44f}\x{442} \x{441}\x{43f}\x{43e}\x{441}\x{43e}\x{431}\x{44b} \x{442}\x{43e}\x{432}. \x{414}\x{436}\x{430}\x{431}\x{440}\x{430}\x{438}\x{43b}\x{43e}\x{432}\x{44b}\x{445} \x{440}\x{435}\x{448}\x{430}\x{442}\x{44c} \x{43f}\x{440}\x{43e}\x{431}\x{43b}\x{435}\x{43c}\x{44b}.</i><br /><br />\x{415}\x{441}\x{43b}\x{438} \x{443}\x{436} \x{44d}\x{442}\x{430} \x{442}\x{435}\x{43c}\x{430} \x{432}\x{43e}\x{43e}\x{431}\x{449}\x{435} \x{432}\x{43e}\x{437}\x{43d}\x{438}\x{43a}\x{43b}\x{430} \x{438} \x{43f}\x{440}\x{438}\x{43d}\x{44f}\x{43b}\x{430} \x{43d}\x{44b}\x{43d}\x{435}\x{448}\x{43d}\x{44e}\x{44e} \x{444}\x{43e}\x{440}\x{43c}\x{443}, \x{434}\x{443}\x{43c}\x{430}\x{44e} \x{437}\x{430} \x{41a}\x{440}\x{44b}\x{43b}\x{43e}\x{432}\x{430} \x{435}\x{441}\x{442}\x{44c} \x{43a}\x{43e}\x{43c}\x{443} \x{43f}\x{43e}\x{441}\x{442}\x{43e}\x{44f}\x{442}\x{44c}. \x{41a}\x{43e}\x{43c}\x{443}-\x{442}\x{43e} \x{43d}\x{443}\x{436}\x{43d}\x{43e} \x{442}\x{43e} \x{447}\x{442}\x{43e} \x{43f}\x{440}\x{43e}\x{438}\x{441}\x{445}\x{43e}\x{434}\x{438}\x{442}. <br /><br />\"\x{41a}\x{438}\x{440}\x{43f}\x{438}\x{447} \x{43d}\x{438}\x{43a}\x{43e}\x{43c}\x{443} \x{43d}\x{430} \x{433}\x{43e}\x{43b}\x{43e}\x{432}\x{443} \x{43f}\x{440}\x{43e}\x{441}\x{442}\x{43e} \x{442}\x{430}\x{43a} \x{43d}\x{435} \x{43f}\x{430}\x{434}\x{430}\x{435}\x{442}\".<br /><br />\x{413}.\x{410}.",
+                       'commenter_journal_base' => 'http://alexandrov-g.livejournal.com/',
+                       'etime_ts' => undef,
+                       'ctime' => 'July 26 2004, 10:13:16 UTC',
+                       'poster' => 'alexandrov_g'
+                     },
+          '37887' => {
+                       'leafclass' => undef,
+                       'margin' => 0,
+                       'subject' => '',
+                       'actions' => [
+                                    {
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?replyto=37887',
+                                      'title' => 'Reply',
+                                      'name' => 'reply',
+                                      'footer' => 1
+                                    },
+                                    {
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=37887#t37887',
+                                      'name' => 'permalink',
+                                      'title' => 'link'
+                                    },
+                                    {
+                                      'title' => 'Collapse',
+                                      'name' => 'collapse',
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=37887#t37887'
+                                    },
+                                    {
+                                      'title' => 'Expand',
+                                      'name' => 'expand',
+                                      'href' => 'http://alexandrov-g.livejournal.com/7423.html?thread=37887#t37887',
+                                      'allowed' => 1
+                                    }
+                                  ],
+                       'noid' => undef,
+                       'ipaddr' => undef,
+                       'below' => undef,
+                       'statprefix' => 'http://l-stat.livejournal.net',
+                       'massactions' => 0,
+                       'shown' => 1,
+                       'etime_ts' => undef,
+                       'username' => [
+                                     {
+                                       'journal' => 'pioneer_lj',
+                                       'journaltype' => 'P',
+                                       'profile_url' => 'http://pioneer-lj.livejournal.com/profile',
+                                       'striked' => undef,
+                                       'username' => 'pioneer_lj',
+                                       'journal_url' => 'http://pioneer-lj.livejournal.com/',
+                                       'color' => undef,
+                                       'is_identity' => 0,
+                                       'bold' => 1,
+                                       'inline_css' => 0,
+                                       'side_alias' => 0,
+                                       'user_alias' => undef,
+                                       'alias' => 0,
+                                       'noctxpopup' => 0,
+                                       'attrs' => undef,
+                                       'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3'
+                                     }
+                                   ],
+                       'commenter_journal_base' => 'http://pioneer-lj.livejournal.com/',
+                       'ctime' => 'July 26 2004, 09:49:27 UTC',
+                       'article' => "\x{427}\x{443}\x{432}\x{441}\x{442}\x{432}\x{443}\x{435}\x{442}\x{441}\x{44f}, \x{432}\x{44b} \x{43d}\x{435} \x{447}\x{438}\x{442}\x{430}\x{43b}\x{438} \x{44d}\x{43a}\x{441}\x{43f}\x{435}\x{440}\x{442}\x{438}\x{437}\x{44b} \x{43f}\x{43e}\x{43a}\x{43e}\x{439}\x{43d}\x{43e}\x{433}\x{43e} \x{413}\x{438}\x{440}\x{435}\x{43d}\x{43a}\x{43e}. \x{41f}\x{43e} \x{441}\x{43b}\x{443}\x{447}\x{430}\x{44e} \x{441}\x{442}\x{430}\x{442}\x{44c}\x{438}, \x{432} \x{43a}\x{43e}\x{442}\x{43e}\x{440}\x{43e}\x{439} \x{443}\x{43a}\x{430}\x{437}\x{44b}\x{432}\x{430}\x{43b}\x{43e}\x{441}\x{44c}, \x{447}\x{442}\x{43e} \x{434}\x{435}\x{43f}\x{43e}\x{440}\x{442}\x{430}\x{446}\x{438}\x{44f} \x{447}\x{435}\x{447}\x{435}\x{43d}\x{446}\x{435}\x{432} \x{431}\x{44b}\x{43b}\x{430} \x{43d}\x{435} \x{441}\x{43e}\x{432}\x{441}\x{435}\x{43c} \x{431}\x{435}\x{437}\x{43e}\x{441}\x{43d}\x{43e}\x{432}\x{430}\x{442}\x{435}\x{43b}\x{44c}\x{43d}\x{430}, \x{43f}\x{43e}\x{441}\x{43a}\x{43e}\x{43b}\x{44c}\x{43a}\x{443} \x{43e}\x{43d}\x{438} \x{441}\x{43e}\x{442}\x{440}\x{443}\x{434}\x{43d}\x{438}\x{447}\x{430}\x{43b}\x{438} \x{441} \x{43d}\x{430}\x{446}\x{438}\x{441}\x{442}\x{430}\x{43c}\x{438}, \x{43f}\x{440}\x{43e}\x{438}\x{437}\x{432}\x{43e}\x{434}\x{438}\x{43b}\x{430}\x{441}\x{44c} \x{442}\x{430}\x{43a}\x{430}\x{44f} \x{44d}\x{43a}\x{441}\x{43f}\x{435}\x{440}\x{442}\x{438}\x{437}\x{430}. ...\x{43f}\x{43e}\x{441}\x{43e}\x{43a}\x{43b}\x{44c}\x{43a}\x{443} \x{447}\x{435}\x{447}\x{435}\x{43d}\x{441}\x{43a}\x{438}\x{439} \x{43d}\x{430}\x{440}\x{43e}\x{434} \x{440}\x{435}\x{430}\x{431}\x{435}\x{43b}\x{438}\x{442}\x{438}\x{440}\x{43e}\x{432}\x{430}\x{43d} \x{43f}\x{43e}\x{441}\x{442}\x{430}\x{43d}\x{43e}\x{432}\x{43b}\x{435}\x{43d}\x{438}\x{435}\x{43c} \x{412}\x{421} \x{43e}\x{442} 1989 \x{433}\x{43e}\x{434}\x{430} \x{438} \x{435}\x{433}\x{43e} \x{434}\x{435}\x{43f}\x{43e}\x{440}\x{442}\x{430}\x{446}\x{438}\x{44f} \x{43f}\x{440}\x{438}\x{437}\x{43d}\x{430}\x{43d}\x{430}\x{43d} \x{433}\x{435}\x{43d}\x{43e}\x{446}\x{438}\x{434}\x{43e}\x{43c}, \x{442}\x{43e} \x{43e}\x{431}\x{432}\x{438}\x{44f}\x{43d}\x{435}\x{43c}\x{44b}\x{439} \x{440}\x{430}\x{437}\x{436}\x{438}\x{433}\x{430}\x{43b} \x{43c}\x{435}\x{436}\x{43d}\x{430}\x{446}\x{438}\x{43e}\x{43d}\x{430}\x{43b}\x{44c}\x{43d}\x{443}\x{44e} \x{440}\x{43e}\x{437}\x{43d}\x{44c}.<br />\x{413}\x{438}\x{440}\x{435}\x{43d}\x{43a}\x{43e} \x{43c}\x{451}\x{440}\x{442}\x{432}, \x{430} \x{434}\x{435}\x{43b}\x{43e} \x{435}\x{433}\x{43e} \x{436}\x{438}\x{432}\x{451}\x{442}.<br /><br />\x{41c}\x{435}\x{43d}\x{44f} \x{43a}\x{443}\x{434}\x{430} \x{431}\x{43e}\x{43b}\x{44c}\x{448}\x{435} \x{431}\x{435}\x{441}\x{43f}\x{43e}\x{43a}\x{43e}\x{44f}\x{442} \x{441}\x{43f}\x{43e}\x{441}\x{43e}\x{431}\x{44b} \x{442}\x{43e}\x{432}. \x{414}\x{436}\x{430}\x{431}\x{440}\x{430}\x{438}\x{43b}\x{43e}\x{432}\x{44b}\x{445} \x{440}\x{435}\x{448}\x{430}\x{442}\x{44c} \x{43f}\x{440}\x{43e}\x{431}\x{43b}\x{435}\x{43c}\x{44b}. \x{412}\x{43e}\x{43d} \x{41e}\x{440}\x{434}\x{436}\x{43e}\x{43d}\x{438}\x{43a}\x{438}\x{434}\x{437}\x{435} \x{43c}\x{43e}\x{447}\x{438}\x{43b}\x{438}, \x{430} \x{438} \x{442}\x{43e}\x{442} \x{43d}\x{438}\x{447}\x{435}\x{433}\x{43e} \x{441}\x{434}\x{435}\x{43b}\x{430}\x{442}\x{44c} \x{43d}\x{435} \x{441}\x{43c}\x{43e}\x{433}.",
+                       'upictitle' => "Pioneer: \x{412}\x{438}\x{43d}\x{43d}\x{438}-\x{41f}\x{443}\x{445}",
+                       'deleted_poster' => undef,
+                       'poster' => 'alexandrov_g',
+                       'level' => 1,
+                       'above' => undef,
+                       'talkid' => 147,
+                       'controls' => undef,
+                       'ctime_ts' => '1090835367',
+                       'suspended' => undef,
+                       'uname' => 'pioneer_lj',
+                       'siteroot' => 'http://www.livejournal.com',
+                       'stime' => '11 years ago',
+                       'thread' => 37887,
+                       'dtalkid' => 37887,
+                       'loaded' => 1,
+                       'tracked' => 0,
+                       'thread_url' => 'http://alexandrov-g.livejournal.com/7423.html?thread=37887#t37887',
+                       'is_promo' => 0,
+                       'subclass' => undef,
+                       'collapsed' => 0,
+                       'etime' => undef,
+                       'userpic' => 'http://l-userpic.livejournal.com/1953796/469050',
+                       'deleted' => 0,
+                       'dname' => 'pioneer_lj',
+                       'parent' => 0,
+                       'deepLevel' => 0,
+                       'p_tracked' => 0,
+                       'is_best' => 0
+                     }
+        };

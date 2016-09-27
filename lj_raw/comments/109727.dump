@@ -1,0 +1,92 @@
+$VAR1 = {
+          '2581407' => {
+                         'thread_url' => 'http://alexandrov-g.livejournal.com/109727.html?thread=2581407#t2581407',
+                         'leafclass' => undef,
+                         'siteroot' => 'http://www.livejournal.com',
+                         'deleted' => 0,
+                         'thread' => 2581407,
+                         'article' => "\x{430} \x{441}\x{435}\x{439}\x{447}\x{430}\x{441} \x{432}\x{43e}\x{442} \x{43d}\x{438} \x{441} \x{442}\x{43e}\x{433}\x{43e} \x{43d}\x{438} \x{441} \x{441}\x{435}\x{433}\x{43e} \x{421}\x{41c}\x{418} \x{43d}\x{430}\x{447}\x{430}\x{43b}\x{438} \x{442}\x{430}\x{440}\x{430}\x{445}\x{442}\x{435}\x{442}\x{44c} \x{43f}\x{440}\x{43e} \x{41a}\x{43e}\x{43d}\x{433}\x{43e}.",
+                         'poster' => 'alexandrov_g',
+                         'username' => [
+                                       {
+                                         'profile_url' => 'http://notacritic.livejournal.com/profile',
+                                         'user_alias' => undef,
+                                         'attrs' => undef,
+                                         'noctxpopup' => 0,
+                                         'journal_url' => 'http://notacritic.livejournal.com/',
+                                         'side_alias' => 0,
+                                         'bold' => 1,
+                                         'color' => undef,
+                                         'journal' => 'notacritic',
+                                         'inline_css' => 0,
+                                         'is_identity' => 0,
+                                         'alias' => 0,
+                                         'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                         'username' => 'notacritic',
+                                         'striked' => 1,
+                                         'journaltype' => 'P'
+                                       }
+                                     ],
+                         'ipaddr' => undef,
+                         'deleted_poster' => undef,
+                         'deepLevel' => 0,
+                         'above' => undef,
+                         'statprefix' => 'http://l-stat.livejournal.net',
+                         'etime' => undef,
+                         'p_tracked' => 0,
+                         'talkid' => 10083,
+                         'loaded' => 1,
+                         'parent' => 0,
+                         'upictitle' => "\x{425}\x{43e}\x{440}\x{43e}\x{448}\x{43e}!: pic#58510740",
+                         'is_best' => 0,
+                         'margin' => 0,
+                         'etime_ts' => undef,
+                         'massactions' => 0,
+                         'ctime' => 'October 6 2006, 03:43:01 UTC',
+                         'suspended' => undef,
+                         'actions' => [
+                                      {
+                                        'href' => 'http://alexandrov-g.livejournal.com/109727.html?replyto=2581407',
+                                        'name' => 'reply',
+                                        'allowed' => 1,
+                                        'title' => 'Reply',
+                                        'footer' => 1
+                                      },
+                                      {
+                                        'name' => 'permalink',
+                                        'href' => 'http://alexandrov-g.livejournal.com/109727.html?thread=2581407#t2581407',
+                                        'allowed' => 1,
+                                        'title' => 'link'
+                                      },
+                                      {
+                                        'allowed' => 1,
+                                        'name' => 'collapse',
+                                        'href' => 'http://alexandrov-g.livejournal.com/109727.html?thread=2581407#t2581407',
+                                        'title' => 'Collapse'
+                                      },
+                                      {
+                                        'allowed' => 1,
+                                        'name' => 'expand',
+                                        'href' => 'http://alexandrov-g.livejournal.com/109727.html?thread=2581407#t2581407',
+                                        'title' => 'Expand'
+                                      }
+                                    ],
+                         'uname' => 'notacritic',
+                         'ctime_ts' => '1160106181',
+                         'collapsed' => 0,
+                         'dtalkid' => 2581407,
+                         'userpic' => undef,
+                         'commenter_journal_base' => 'http://notacritic.livejournal.com/',
+                         'dname' => 'notacritic',
+                         'subject' => '',
+                         'shown' => 1,
+                         'is_promo' => 0,
+                         'level' => 1,
+                         'below' => undef,
+                         'stime' => '9 years ago',
+                         'noid' => undef,
+                         'tracked' => 0,
+                         'subclass' => undef,
+                         'controls' => undef
+                       }
+        };

@@ -1,0 +1,40 @@
+\documentclass[9pt,hidelinks,openany,a4paper,twocolumn]{scrbook}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+
+\usepackage{CJKutf8}
+\usepackage{color}
+\usepackage[export]{adjustbox}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage[htt]{hyphenat}
+\hypersetup{pdfauthor = {Геннадий~Александров}, pdftitle = {Империя.~Власть.~Игра.}}
+\usepackage{indentfirst}
+\usepackage{media9}
+\usepackage{relsize}
+%\usepackage{showframe}  % to show typing area, header, footer, margins
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+\usepackage{xspace}
+\graphicspath{{../lj_processed/images/}{../lj_processed/comments_images/}{youtube_images/}{converted_images/}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\begin{tabularx}{\textwidth}{@{}Xr@{}}Геннадий~Александров & Империя.~Власть.~Игра.\end{tabularx}}
+\fancyhead[RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
+\begin{document}
+\begin{CJK*}{UTF8}{min}
+\input{cover}
+\input{from_publisher}
+\unsettoc{toc}{onecolumn} 
+\pagebreak\tableofcontents\pagebreak

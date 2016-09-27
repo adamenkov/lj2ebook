@@ -1,0 +1,92 @@
+$VAR1 = {
+          '14941' => {
+                       'stime' => '11 years ago',
+                       'thread' => 14941,
+                       'siteroot' => 'http://www.livejournal.com',
+                       'is_promo' => 0,
+                       'thread_url' => 'http://alexandrov-g.livejournal.com/4445.html?thread=14941#t14941',
+                       'tracked' => 0,
+                       'loaded' => 1,
+                       'dtalkid' => 14941,
+                       'suspended' => undef,
+                       'ctime_ts' => '1089734647',
+                       'controls' => undef,
+                       'talkid' => 58,
+                       'uname' => 'old_fox',
+                       'parent' => 0,
+                       'is_best' => 0,
+                       'p_tracked' => 0,
+                       'deepLevel' => 0,
+                       'userpic' => 'http://l-userpic.livejournal.com/7346356/1339144',
+                       'etime' => undef,
+                       'collapsed' => 0,
+                       'subclass' => undef,
+                       'dname' => 'old_fox',
+                       'deleted' => 0,
+                       'shown' => 1,
+                       'massactions' => 0,
+                       'statprefix' => 'http://l-stat.livejournal.net',
+                       'subject' => "\x{418} \x{435}\x{449}\x{451} \x{43b}\x{435}\x{433}\x{435}\x{43d}\x{434}\x{430}\x{440}\x{43d}\x{43e}\x{435} :)",
+                       'margin' => 0,
+                       'leafclass' => undef,
+                       'below' => undef,
+                       'ipaddr' => undef,
+                       'actions' => [
+                                    {
+                                      'href' => 'http://alexandrov-g.livejournal.com/4445.html?replyto=14941',
+                                      'allowed' => 1,
+                                      'footer' => 1,
+                                      'name' => 'reply',
+                                      'title' => 'Reply'
+                                    },
+                                    {
+                                      'href' => 'http://alexandrov-g.livejournal.com/4445.html?thread=14941#t14941',
+                                      'allowed' => 1,
+                                      'name' => 'permalink',
+                                      'title' => 'link'
+                                    },
+                                    {
+                                      'name' => 'collapse',
+                                      'title' => 'Collapse',
+                                      'allowed' => 1,
+                                      'href' => 'http://alexandrov-g.livejournal.com/4445.html?thread=14941#t14941'
+                                    },
+                                    {
+                                      'href' => 'http://alexandrov-g.livejournal.com/4445.html?thread=14941#t14941',
+                                      'allowed' => 1,
+                                      'title' => 'Expand',
+                                      'name' => 'expand'
+                                    }
+                                  ],
+                       'noid' => undef,
+                       'above' => undef,
+                       'level' => 1,
+                       'deleted_poster' => undef,
+                       'upictitle' => "\x{43f}\x{430}\x{43d} \x{422}\x{432}\x{430}\x{440}\x{434}\x{43e}\x{432}\x{441}\x{43a}\x{438}\x{439}: pan",
+                       'username' => [
+                                     {
+                                       'attrs' => undef,
+                                       'alias' => 0,
+                                       'noctxpopup' => 0,
+                                       'user_alias' => undef,
+                                       'userhead_url' => 'http://l-stat.livejournal.net/img/userinfo.gif?v=17080?v=133.3',
+                                       'journaltype' => 'P',
+                                       'journal' => 'old_fox',
+                                       'side_alias' => 0,
+                                       'bold' => 1,
+                                       'inline_css' => 0,
+                                       'is_identity' => 0,
+                                       'striked' => undef,
+                                       'profile_url' => 'http://old-fox.livejournal.com/profile',
+                                       'username' => 'old_fox',
+                                       'color' => undef,
+                                       'journal_url' => 'http://old-fox.livejournal.com/'
+                                     }
+                                   ],
+                       'ctime' => 'July 13 2004, 16:04:07 UTC',
+                       'etime_ts' => undef,
+                       'article' => "\"\x{422}\x{430}\x{43a}\x{43e}\x{439} \x{445}\x{43e}\x{43a}\x{43a}\x{435}\x{439} \x{43d}\x{430}\x{43c} \x{43d}\x{435} \x{43d}\x{443}\x{436}\x{435}\x{43d} !\"<br />\x{418} \x{43e}\x{43d} \x{436}\x{435} \x{441}\x{442}\x{430}\x{43b} \x{43f}\x{435}\x{440}\x{432}\x{44b}\x{43c} \x{442}\x{44f}\x{43d}\x{443}\x{442}\x{44c} \x{431}\x{443}\x{43a}\x{432}\x{443} \x{43e} \x{432} \x{441}\x{43b}\x{43e}\x{432}\x{435} \x{413}\x{41e}-\x{41e}-\x{41e}-\x{41e}\x{41b}! (\x{43d}\x{430}\x{43f}\x{43e}\x{434}\x{43e}\x{431}\x{438}\x{435} \x{43b}\x{430}\x{442}\x{438}\x{43d}\x{43e}\x{430}\x{43c}\x{435}\x{440}\x{438}\x{43a}\x{430}\x{43d}\x{441}\x{43a}\x{438}\x{445} \x{43a}\x{43e}\x{43c}\x{43c}\x{435}\x{43d}\x{442}\x{430}\x{442}\x{43e}\x{440}\x{43e}\x{432})<br />\x{422}\x{432}\x{43e}\x{440}\x{447}\x{435}\x{441}\x{43a}\x{438}\x{439} \x{431}\x{44b}\x{43b} \x{447}\x{435}\x{43b}\x{43e}\x{432}\x{435}\x{43a}, \x{445}\x{43e}\x{442}\x{44c} \x{438} \x{43d}\x{430}\x{438}\x{432}\x{43d}\x{44b}\x{439}. \x{418}\x{441}\x{43a}\x{430}\x{43b}, \x{433}\x{434}\x{435} \x{43c}\x{43e}\x{433}. \x{418} \x{440}\x{430}\x{431}\x{43e}\x{442}\x{430}\x{43b} \x{447}\x{435}\x{441}\x{442}\x{43d}\x{43e} ",
+                       'commenter_journal_base' => 'http://old-fox.livejournal.com/',
+                       'poster' => 'alexandrov_g'
+                     }
+        };
