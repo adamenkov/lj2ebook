@@ -178,14 +178,18 @@ sub epub2tex
 		my $text = $3;
 		my $end = $4;
 		my $cmd;
-		if ($text =~ /\s/)
+		if (($text =~ /\s/) || ($text =~ m|^https?://.*?|) || ($text =~ m|^www\.|))
 		{
 			$cmd = "\\texttt\{" . fix_hyperlink($text) . "\}";
 		}
 		else
 		{
-			$cmd = "\\path\{$text\}"
+			#$cmd = "\\path\{$text\}"
+			$cmd = "\\ttfamily $text";
 		}
+		#print("url: $url\n");
+		#print("text: $text\n");
+		#print("cmd: $cmd\n");
 		$url =~ s/\\$//;
 		#print("|$url|\n");
 		$document = "$begin\\href\{$url\}\{$cmd\}$end";
