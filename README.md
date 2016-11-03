@@ -2,7 +2,7 @@ The goal of this project is to make an eBook (EPUB) and a printable book (PDF) f
 
 The latest eBook version is right here: [alexandrov-g.epub](https://github.com/adamenkov/lj2ebook/blob/master/alexandrov-g.epub?raw=true).  Also, some recent version of the eBook is available at no cost at [Apple iTunes](https://itunes.apple.com/us/book/imperia.-vlast-.-igra./id1069426062?ls=1&mt=11).  The eBook can be read with: calibre, iBooks (iOS, OS X), ePub Reader (Android), Legimi (Windows Phone).
 
-_The printable (PDF) version of the book is still under construction - use at your own risk._ The latest PDF version is here: [alexandrov-g.pdf](https://github.com/adamenkov/lj2ebook/blob/master/alexandrov-g.pdf?raw=true).
+The latest PDF version is here: [alexandrov-g.pdf](https://github.com/adamenkov/lj2ebook/blob/master/alexandrov-g.pdf?raw=true).
 
 To build the eBook, I used OS X (El Capitan) 10.11.3, Code Runner 1-2, Perl v5.18.2.  To build the PDF, I also used TexLive 1.21 and Texpad 1.4.7.
 
