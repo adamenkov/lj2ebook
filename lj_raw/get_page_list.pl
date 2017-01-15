@@ -2,6 +2,7 @@
 
 use strict;
 
+use Data::Dumper;
 use HTML::TokeParser;
 use LWP::Simple;
 
@@ -22,32 +23,22 @@ sub get_page_list
 	
 	for ($year = $year_from; $year <= $year_to; ++$year)
 	{
+		#print("Year: $year\n");
+		
 		for ($month = 1; $month <= 12; ++$month)
 		{
-			$addr = sprintf("\nhttp://%s.livejournal.com/%d/%02d/", $journal, $year, $month);
-			$month_view = get($addr);
-			$token_stream = HTML::TokeParser->new(\$month_view);
-			while ($token = $token_stream->get_token())
+			#print("Month: $month\n");
+			
+			$addr = sprintf("http://%s.livejournal.com/%d/%02d/", $journal, $year, $month);
+			print("Looking into $addr...\n");
+			
+			$month_view = get($addr) || die "Couldn't get $addr";
+			#print("Month view:\n$month_view"); exit(1);
+			
+			while ($month_view =~ m|<div class="subjectlist">.*?<a href="(http://alexandrov-g\.livejournal\.com/\d+\.html)">(.*?)</a>|sg)
 			{
-				if (($token->[0] eq 'S') && ($token->[1] eq 'table'))
-				{
-					$table_attrs = $token->[3];
-					if (scalar(@$table_attrs) > 0)
-					{
-						while ($token = $token_stream->get_token())
-						{
-							if (($token->[0] eq 'S') && ($token->[1] eq 'a'))
-							{
-								$page_addr = $token->[2]->{'href'};
-								$token = $token_stream->get_token();
-								$page_name = $token->[1];
-								print "$page_name\n$page_addr\n\n";
-								print $fh "$page_name\n$page_addr\n\n";
-								last;
-							}
-						}
-					}
-				}
+				print("$2\n$1\n\n");
+				print $fh "$2\n$1\n\n";
 			}
 		}
 	}
