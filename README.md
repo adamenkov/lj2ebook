@@ -19,6 +19,7 @@ get_comments.pl | Download all comments for further processing offline.
 trim_comments.pl | Drop all comments that are not answered by the author.  More specifically, for a comment to remain in the final eBook it must be either written by the author or answered by someone who is answered by someone ... who is answered by the author.
 sort_comments.pl | Order comments according to how they were originally at the LiveJournal page.
 flatten_comments.pl | In LiveJournal, comments are organized in threads.  For the purposes of this eBook, I decided to insert horizontal lines between groups of comments pertaining to different threads at the original LiveJournal page.
+get_images.pl | Download images from image_list.txt
 get_comments_image_list.pl | Get the list of all images referenced in the comments (that survived trimming) and store it in the file comments_image_list.txt.
 get_comments_images.pl | Download images from the comments_image_list.txt.  Make a list of images that couldn't be downloaded and put it into file missing_comment_image_list.txt.
 process_posts.pl | Take downloaded posts (modified to fix typos) and combine them with the flattened comments, do some other fixes to make calibre and iBooks happy.  Output files - in the subdirectory "processed_posts" - are manually inserted in the alexandrov-g.epub using calibre and are also the input files to build the PDF version of the book.
