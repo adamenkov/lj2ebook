@@ -29,7 +29,7 @@ sub get_page_list
 		{
 			#print("Month: $month\n");
 			
-			$addr = sprintf("http://%s.livejournal.com/%d/%02d/", $journal, $year, $month);
+			$addr = sprintf("https://%s.livejournal.com/%d/%02d/", $journal, $year, $month);
 			print("Looking into $addr...\n");
 			
 			$month_view = get($addr) || die "Couldn't get $addr";
