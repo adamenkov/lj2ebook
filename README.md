@@ -10,8 +10,8 @@ The files used to build the eBook are as follows:
 
 File | Description
 -----|------------
-get_page_list.pl | Go through all months in 2004-2015 and extract the LiveJournal post titles and HTTP addresses, put the result in the file page_list.txt.  It should be run only once.
-get_posts.pl | Download all posts (without comments) and store them (together with their title and date) in the subdirectory post.  It should be run only once.  If you run it again, all your fixes will be overwritten.
+get_page_list.pl | Go through all months in 2004-2015 and extract the LiveJournal post titles and HTTP addresses, put the result in the file page_list.txt.  It should be run only once if no new posts are written any more.
+get_posts.pl | Download all posts (without comments) and store them (together with their title and date) in the subdirectory post.  ~~It should be run only once.  If you run it again, all your fixes will be overwritten.~~  UPDATE: If you run it again, only new posts will be downloaded.
 get_image_list.pl | Get the list of all referenced images and put it in the file image_list.txt.
 get_missing_image_list.pl | Find all broken links to images and write the list to file missing_image_list.txt.  You don't really want broken images in the eBook.  Some posts are not even decipherable (by readers) without them.
 orator.jpg | An image that the author's LiveJournal avatar was made of.  It is a fragment of the caricature "Speaker" by Herluf Bidstrup.
@@ -31,7 +31,7 @@ Once a comment is edited, (1) trim_comments.pl, (2) sort_comments_pl, (3) flatte
 
 Once a new post by the author (Mr. Alexandrov) is written (this is unfortunately an extremely rare event these days), the easiest way is probably the following: manually add the title and the HTTP address of the new post to the file page_list.txt, run get_posts.pl and the 4 scripts from the previous paragraph.  If the post contains images, we need to download them and the easiest way to do it is probably to generate a new image list (get_image_list.pl with the output file name changed) and download images only from this list (get_images.pl).  If an author's comment (or a comment upward from it) has images, we need to do similar things with get_comments_image_list.pl and get_comments_images.pl.
 
-_If Mr. Alexandrov ever writes another post, I'll come up with a script that automates the generation of the new chapter along with all the referenced images._
+_If Mr. Alexandrov ever writes another post, ~~I'll come up with a script that automates the generation of the new chapter along with all the referenced images.~~ run get_page_list.pl, get_posts.pl etc._
 
 For changes to take effect in the EPUB, it should be edited (e.g. one/some/all HTML files should be replaced).  Always run the checks (by calibre and ePub Checker) after every modification.
 
