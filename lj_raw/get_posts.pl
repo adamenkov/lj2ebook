@@ -32,8 +32,11 @@ sub download
 	
 	if (-e $1)
 	{
-		print("Already exists: $addr.\n");
-		return 0;
+		#print("Already exists: $addr.\n");
+		#return 0;
+		
+		#print("Already exists, skipping: $addr.\n");
+		next;		
 	}
 	
 	open(my $OUTPUT, ">:encoding(UTF-8)", "$file") || die "Couldn't open file $file: " . $!;
