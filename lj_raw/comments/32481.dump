@@ -1,0 +1,94 @@
+$VAR1 = {
+          '322529' => {
+                        'leafclass' => undef,
+                        'is_best' => 0,
+                        'loaded' => 1,
+                        'parent' => 0,
+                        'poster' => 'alexandrov_g',
+                        'noid' => undef,
+                        'talkid' => 1259,
+                        'subclass' => undef,
+                        'controls' => undef,
+                        'article' => "\x{420}\x{435}\x{43d}\x{435} \x{44d}\x{442}\x{43e}\x{442} \x{445}\x{43e}\x{434} \x{441}\x{43e} \x{441}\x{43f}\x{438}\x{447}\x{43a}\x{430}\x{43c}\x{438}, \x{43f}\x{43e}\x{43c}\x{43d}\x{438}\x{442}\x{441}\x{44f}, \x{441}\x{430}\x{43c} \x{43f}\x{43e}\x{437}\x{430}\x{438}\x{43c}\x{441}\x{442}\x{432}\x{43e}\x{432}\x{430}\x{43b}. \x{41a}\x{430}\x{436}\x{435}\x{442}\x{441}\x{44f}, \x{443} \x{41a}\x{43e}\x{440}\x{442}\x{430}\x{441}\x{430}\x{440}\x{430}... \x{41d}\x{43e} \x{443} \x{43c}\x{435}\x{43d}\x{44f} \x{438}\x{43d}\x{44b}\x{435} \x{430}\x{441}\x{441}\x{43e}\x{446}\x{438}\x{430}\x{446}\x{438}\x{438}. \x{42f}-\x{442}\x{43e} \x{434}\x{443}\x{43c}\x{430}\x{43b}, \x{44d}\x{442}\x{43e} - \x{43f}\x{440}\x{43e} \x{43c}\x{435}\x{43d}\x{44f} (\x{430} \x{43d}\x{435} \x{43f}\x{440}\x{43e} \x{432}\x{440}\x{430}\x{447}\x{435}\x{439} \x{431}\x{435}\x{437} \x{433}\x{440}\x{430}\x{43d}\x{438}\x{446}:)); \x{442}\x{430}\x{43c} \x{441}\x{43a}\x{43e}\x{440}\x{435}\x{435} \x{430}\x{43d}\x{430}\x{43b}\x{43e}\x{433}\x{438}\x{44f} \x{441} \x{43a}\x{440}\x{443}\x{433}\x{43e}\x{441}\x{432}\x{435}\x{442}\x{43d}\x{43e}\x{439} \x{440}\x{435}\x{433}\x{430}\x{442}\x{43e}\x{439} \x{43a}\x{430}\x{43f}\x{438}\x{442}\x{430}\x{43d}\x{430} \x{412}\x{440}\x{443}\x{43d}\x{433}\x{435}\x{43b}\x{44f}.",
+                        'ctime_ts' => '1102543645',
+                        'dname' => 'prkrust',
+                        'suspended' => undef,
+                        'actions' => [
+                                       {
+                                         'footer' => 1,
+                                         'title' => 'Reply',
+                                         'name' => 'reply',
+                                         'allowed' => 1,
+                                         'href' => 'https://alexandrov-g.livejournal.com/32481.html?replyto=322529'
+                                       },
+                                       {
+                                         'title' => 'link',
+                                         'allowed' => 1,
+                                         'name' => 'permalink',
+                                         'href' => 'https://alexandrov-g.livejournal.com/32481.html?thread=322529#t322529'
+                                       },
+                                       {
+                                         'name' => 'collapse',
+                                         'allowed' => 1,
+                                         'href' => 'https://alexandrov-g.livejournal.com/32481.html?thread=322529#t322529',
+                                         'title' => 'Collapse'
+                                       },
+                                       {
+                                         'title' => 'Expand',
+                                         'href' => 'https://alexandrov-g.livejournal.com/32481.html?thread=322529#t322529',
+                                         'name' => 'expand',
+                                         'allowed' => 1
+                                       }
+                                     ],
+                        'username' => [
+                                        {
+                                          'color' => undef,
+                                          'inline_css' => 0,
+                                          'alias' => 0,
+                                          'user_alias' => '',
+                                          'show_userhead' => 1,
+                                          'journal_url' => 'https://prkrust.livejournal.com/',
+                                          'username' => 'prkrust',
+                                          'noctxpopup' => 0,
+                                          'striked' => undef,
+                                          'userhead_url' => 'https://l-stat.livejournal.net/img/userinfo_v8.svg?v=17080?v=235',
+                                          'journaltype' => 'P',
+                                          'side_alias' => 0,
+                                          'journal' => 'prkrust',
+                                          'bold' => 1,
+                                          'profile_url' => 'https://prkrust.livejournal.com/profile',
+                                          'is_identity' => 0,
+                                          'attrs' => undef
+                                        }
+                                      ],
+                        'deepLevel' => 0,
+                        'lj_statprefix' => 'https://l-stat.livejournal.net',
+                        'above' => undef,
+                        'margin' => 0,
+                        'massactions' => 0,
+                        'etime' => undef,
+                        'stime' => '13 years ago',
+                        'statprefix' => 'https://l-stat.livejournal.net',
+                        'shown' => 1,
+                        'commenter_journal_base' => 'https://prkrust.livejournal.com/',
+                        'deleted_poster' => undef,
+                        'is_promo' => 0,
+                        'deleted' => 0,
+                        'thread_url' => 'https://alexandrov-g.livejournal.com/32481.html?thread=322529#t322529',
+                        'userpic' => 'https://l-userpic.livejournal.com/73452618/2773914',
+                        'upictitle' => "\x{421}\x{447}\x{430}\x{441}\x{442}\x{43b}\x{438}\x{432}\x{44b}\x{439} \x{41f}\x{440}\x{43e}\x{43a}\x{440}\x{443}\x{441}\x{442}\x{43e}: pic#73452618",
+                        'uname' => 'prkrust',
+                        'etime_ts' => undef,
+                        'subject' => '',
+                        'below' => undef,
+                        'tracked' => 0,
+                        'level' => 1,
+                        'ipaddr' => undef,
+                        'ctime' => 'December 8 2004, 22:07:25 UTC',
+                        'dtalkid' => 322529,
+                        'thread' => 322529,
+                        'p_tracked' => 0,
+                        'collapsed' => 0,
+                        'siteroot' => 'https://www.livejournal.com'
+                      }
+        };

@@ -26,9 +26,9 @@ while (<$PLF>)
 	chomp($addr);
 	<$PLF>;
 	
-	#$addr = "http://alexandrov-g.livejournal.com/218465.html";
+	#$addr = "https://alexandrov-g.livejournal.com/218465.html";
 	
-	$addr =~ m{http://(.*).livejournal.com/(\d+).html};
+	$addr =~ m{https://(.*).livejournal.com/(\d+).html};
 	my $journal = $1;
 	my $post_id = $2;
 	
@@ -144,7 +144,7 @@ sub download_comments
 		my $root = $all_comments_ref->{$thread}->{parent};
 		
 		my $http =
-			"http://www.livejournal.com/$journal/__rpc_get_thread?journal=$journal&itemid=$post_id&flat=&skip=1&thread=$thread&expand_all=1&_=7";
+			"https://www.livejournal.com/$journal/__rpc_get_thread?journal=$journal&itemid=$post_id&flat=&skip=1&thread=$thread&expand_all=1&_=7";
 		my $json = get($http);
 		my $post_info = from_json($json);
 		my $comments_ref = $post_info->{comments};
