@@ -35,10 +35,16 @@ sub get_page_list
 			$month_view = get($addr) || die "Couldn't get $addr";
 			#print("Month view:\n$month_view"); exit(1);
 			
-			while ($month_view =~ m|<div class="subjectlist">.*?<a href="(http://alexandrov-g\.livejournal\.com/\d+\.html)">(.*?)</a>|sg)
+			while ($month_view =~ m|<div class="subjectlist">(.*?)</div>|sg)
 			{
-				print("$2\n$1\n\n");
-				print $fh "$2\n$1\n\n";
+				my $subject_list = $1;
+				#print("$subject_list\n");
+				
+				while ($subject_list =~ m|<a href="(https://alexandrov-g\.livejournal\.com/\d+\.html)">(.*?)</a>|sg)
+				{
+					print("$2\n$1\n\n");
+					print $fh "$2\n$1\n\n";
+				}
 			}
 		}
 	}
