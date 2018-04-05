@@ -10,7 +10,7 @@ The files used to build the eBook are as follows:
 
 File | Description
 -----|------------
-get_page_list.pl | Go through all months in 2004-2015 and extract the LiveJournal post titles and HTTP addresses, put the result in the file page_list.txt.  It should be run only once, if no new posts are written any more.
+get_page_list.pl | Go through all months in 2004-2015 and extract the LiveJournal post titles and HTTP addresses, put the result in the file page_list.txt.  It should be run only once if no new posts are written any more.
 get_posts.pl | Download all posts (without comments) and store them (together with their title and date) in the subdirectory post.  ~~It should be run only once.  If you run it again, all your fixes will be overwritten.~~  UPDATE: If you run it again, only new posts will be downloaded.
 get_image_list.pl | Get the list of all referenced images and put it in the file image_list.txt.
 get_missing_image_list.pl | Find all broken links to images and write the list to file missing_image_list.txt.  You don't really want broken images in the eBook.  Some posts are not even decipherable (by readers) without them.
