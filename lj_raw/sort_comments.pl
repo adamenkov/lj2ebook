@@ -18,7 +18,7 @@ while (<$PLF>)
 	chomp($addr);
 	<$PLF>;
 
-	#$addr = 'http://alexandrov-g.livejournal.com/194380.html';
+	#$addr = 'https://alexandrov-g.livejournal.com/280553.html';
 
 	print("Sorting comments for $addr.\n");
 

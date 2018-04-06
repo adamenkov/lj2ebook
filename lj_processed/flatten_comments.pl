@@ -18,7 +18,7 @@ while (<$PLF>)
 	chomp($addr);
 	<$PLF>;
 
-	#$addr = 'http://alexandrov-g.livejournal.com/757.html';
+	#$addr = 'https://alexandrov-g.livejournal.com/280553.html';
 
 	print("Flattening comments for $addr.\n");
 

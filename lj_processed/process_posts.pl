@@ -29,7 +29,7 @@ while (<$PLF>)
 	chomp($addr);
 	<$PLF>;
 	
-	#$addr = "http://alexandrov-g.livejournal.com/189767.html";
+	#$addr = "https://alexandrov-g.livejournal.com/280553.html";
 	process($addr);
 	
 	++$post_count;

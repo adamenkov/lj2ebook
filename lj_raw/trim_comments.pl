@@ -18,7 +18,7 @@ while (<$PLF>)
 	chomp($addr);
 	<$PLF>;
 
-	#$addr = 'https://alexandrov-g.livejournal.com/290973.html';
+	#$addr = 'https://alexandrov-g.livejournal.com/280553.html';
 
 	print("Trimming comments for $addr.\n");
 
