@@ -6,7 +6,7 @@ The latest PDF version is here: [alexandrov-g.pdf](https://github.com/adamenkov/
 
 To build the eBook, I used OS X (El Capitan) 10.11.3, Code Runner 1-2, Perl v5.18.2.  To build the PDF, I also used TexLive 1.21 and Texpad 1.4.7.
 
-_Texpad can be super-slow even on high-end machines, because of enormous amount of information (indirectly) contained in the project file alexandrov-g.tex.  It's probably caused by Texpad's efforts to come up with the hierarchical structure of the project.  So here's a workaround: in file build_book_tex.pl, set both post_lower_bound = post_upper_bound to the same value, e.g. 757.  If you run it, you'll end up with a very small alexandrov-g.tex, which is totally digestible by Texpad._
+_Texpad can be super-slow even on high-end machines, because of enormous amount of information (indirectly) contained in the project file alexandrov-g.tex.  It's probably caused by Texpad's efforts to come up with the hierarchical structure of the project.  So here's a workaround: in file build_book_tex.pl, set both $post_lower_bound and $post_upper_bound to the same value, e.g. 757.  If you run it, you'll end up with a very small alexandrov-g.tex, which is totally digestible by Texpad._
 
 The files used to build the eBook are as follows:
 
