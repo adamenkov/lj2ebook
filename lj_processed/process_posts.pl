@@ -78,8 +78,8 @@ sub process
 	}
 	close($COMMENTS);
 	
-	my $document = "<?xml version='1.0' encoding='utf-8'?><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>$title</title></head><body><div><h2>$title</h2><br/><i>$date</i><br/><a href=\"$addr\">$addr</a><br/><br/>$post<br/>$comments</div></body></html>";
-	
+	my $document = "<?xml version='1.0' encoding='utf-8'?><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>$title</title></head><body><div><h2><a href=\"$addr\">$title</a></h2><br/><i>$date</i><br/><br/>$post<br/>$comments</div></body></html>";
+
 	$document = fix_document($document);
 
 	open(my $OUTPUT, ">:encoding(UTF-8)", $file) || die "Couldn't open output file $file: " . $!;
