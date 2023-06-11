@@ -55,7 +55,7 @@ sub download
 	my ($year, $month, $day) = ($1, $2, $3);
 
 	# Extract title and the text
-	$html =~ m{<h1.*?>\s*(.*)</h1>.*?<article.*?>(.*)</article>};
+	$html =~ m|<h1.*?>\s*(.*)</h1>.*?<article.*?>(.*?)</article>|s;
 	my $title = $1;
 	my $text = $2;
 	$title =~ s/\s*$//;
