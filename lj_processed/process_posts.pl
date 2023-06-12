@@ -125,10 +125,10 @@ sub fix_youtube_objects
 
 	# Come up with custom "youtube" tags.
 	
-	$document =~ s|<iframe src="http://l.lj-toys.com/.*?vid=(.+?)&amp;.*?\s+width="(\d+)"\s+height="(\d+)"\s+.*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
-	$document =~ s|<iframe width="(\d+)" height="(\d+)" src="http://www.youtube.com/embed/(.+?)\?.+?</iframe>|<youtube id="$3" width="$1" height="$2"/>|g;
-	$document =~ s|<iframe src="http://www.youtube.com/embed/(.+?)\?wmode=opaque" width="(\d+)" height="(\d+)".*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
-	$document =~ s|<object width="(\d+)" height="(\d+)"><param name="movie" value="http://www.youtube.com/v/(.+?)["&].+?</object>|<youtube id="$3" width="$1" height="$2"/>|g;
+	$document =~ s|<iframe src="https?://l.lj-toys.com/.*?vid=(.+?)&amp;.*?\s+width="(\d+)"\s+height="(\d+)"\s+.*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
+	$document =~ s|<iframe width="(\d+)" height="(\d+)" src="https?://www.youtube.com/embed/(.+?)\?.+?</iframe>|<youtube id="$3" width="$1" height="$2"/>|g;
+	$document =~ s|<iframe src="https?://www.youtube.com/embed/(.+?)\?wmode=opaque" width="(\d+)" height="(\d+)".*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
+	$document =~ s|<object width="(\d+)" height="(\d+)"><param name="movie" value="https?://www.youtube.com/v/(.+?)["&].+?</object>|<youtube id="$3" width="$1" height="$2"/>|g;
 
 	# Convert the custom "youtube" tags with shockwave objects (readable in iBooks)
 	# and iframes (readable in calibre), plus normal links to YouTube
@@ -186,10 +186,10 @@ sub fix_images
 	$document =~ s|<img ([^>]*?)/>|<img alt="" $1/>|g;
 
 	# Remove useless link to photobucket.com - it only disturbs the LaTeX
-	$document =~ s|<a href="http://photobucket\.com/?" target="_blank" rel="nofollow">(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.photobucket\.com/albums/v243/alexandrov_g/\?action=view&amp;current=.*?>(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.photobucket\.com/user/alexandrov_g/media/.*?>(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.beta\.photobucket\.com.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://photobucket\.com/?" target="_blank" rel="nofollow">(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.photobucket\.com/albums/v243/alexandrov_g/\?action=view&amp;current=.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.photobucket\.com/user/alexandrov_g/media/.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.beta\.photobucket\.com.*?>(.*?)</a>|$1|sg;
 
 	return $document;
 }
