@@ -214,6 +214,10 @@ sub fix_tags
 	$document =~ s|<strike>(.*?)</strike>|<span style="text-decoration:line-through;">$1</span>|g;
 	$document =~ s|<font color="(.*?)">(.*?)</font>|<span style="color:$1">$2</span>|g;
 
+	# Remove XML namespace stuff
+	$document =~ s|<xml:namespace ns="livejournal" prefix="lj">||g;
+	$document =~ s|</xml:namespace>||g;
+
 	return $document;	
 }
 
