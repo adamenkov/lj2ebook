@@ -2,7 +2,6 @@
 use strict;
 #use Data::Dumper;
 use File::Basename;
-use URI;
 use utf8;
 
 
@@ -77,9 +76,11 @@ sub process
 		$comments = <$COMMENTS>;
 	}
 	close($COMMENTS);
-	
-	my $document = "<?xml version='1.0' encoding='utf-8'?><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>$title</title></head><body><div><h2>$title</h2><br/><i>$date</i><br/><a href=\"$addr\">$addr</a><br/><br/>$post<br/>$comments</div></body></html>";
-	
+
+	$comments = fix_links($comments);
+	$post = fix_links($post);
+	my $document = "<?xml version='1.0' encoding='utf-8'?><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><title>$title</title></head><body><div><h2><a href=\"$addr\">$title</a></h2><br/><i>$date</i><br/><br/>$post<br/>$comments</div></body></html>";
+
 	$document = fix_document($document);
 
 	open(my $OUTPUT, ">:encoding(UTF-8)", $file) || die "Couldn't open output file $file: " . $!;
@@ -125,10 +126,10 @@ sub fix_youtube_objects
 
 	# Come up with custom "youtube" tags.
 	
-	$document =~ s|<iframe src="http://l.lj-toys.com/.*?vid=(.+?)&amp;.*?\s+width="(\d+)"\s+height="(\d+)"\s+.*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
-	$document =~ s|<iframe width="(\d+)" height="(\d+)" src="http://www.youtube.com/embed/(.+?)\?.+?</iframe>|<youtube id="$3" width="$1" height="$2"/>|g;
-	$document =~ s|<iframe src="http://www.youtube.com/embed/(.+?)\?wmode=opaque" width="(\d+)" height="(\d+)".*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
-	$document =~ s|<object width="(\d+)" height="(\d+)"><param name="movie" value="http://www.youtube.com/v/(.+?)["&].+?</object>|<youtube id="$3" width="$1" height="$2"/>|g;
+	$document =~ s|<iframe src="https?://l.lj-toys.com/.*?vid=(.+?)&amp;.*?\s+width="(\d+)"\s+height="(\d+)"\s+.*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
+	$document =~ s|<iframe width="(\d+)" height="(\d+)" src="https?://www.youtube.com/embed/(.+?)\?.+?</iframe>|<youtube id="$3" width="$1" height="$2"/>|g;
+	$document =~ s|<iframe src="https?://www.youtube.com/embed/(.+?)\?wmode=opaque" width="(\d+)" height="(\d+)".*?</iframe>|<youtube id="$1" width="$2" height="$3"/>|g;
+	$document =~ s|<object width="(\d+)" height="(\d+)"><param name="movie" value="https?://www.youtube.com/v/(.+?)["&].+?</object>|<youtube id="$3" width="$1" height="$2"/>|g;
 
 	# Convert the custom "youtube" tags with shockwave objects (readable in iBooks)
 	# and iframes (readable in calibre), plus normal links to YouTube
@@ -146,24 +147,23 @@ sub fix_images
 
 	# Remove some LiveJournal-related images.
 	$document =~ s/<img  class="i-ljuser-userhead".*?>//g;
-	$document =~ s/<img alt="" border="0" title=""/<img/g;	
 
 	# Make local links out of absolute HTTP links.
-	while ($document =~ m|<img src="(https?://.*?)"|)
+	while ($document =~ m|<img .*?src="(https?://.*?)"|g)
 	{
-		my $http_from = $-[0];
-		my $http_to = $+[0];
+		my $http_from = $-[1];
+		my $http_to = $+[1];
 
-		my $uri = URI->new($1);
-		my $filename = basename($uri->path());
+		my $filename = basename($1);
 		$filename =~ s/\W/_/g;			# Replace all suspicious characters with the underscore character ...
 		$filename =~ s/_png$/\.png/i;	# ... except for the last period, to keep the file's extension (i.e. type).
 		$filename =~ s/_gif$/\.gif/i;
 		$filename =~ s/_jpg$/\.jpg/i;
 		$filename =~ s/_jpeg$/\.jpeg/i;
 
-		my $name = '<img src="../Images/' . $filename . '"';	# All images are going to reside in the same EPUB file.
-		substr($document, $http_from, $http_to - $http_from, $name);	# Actually replace the link to an image.
+		if (-e "../images/$filename") {
+			substr($document, $http_from, $http_to - $http_from, "../images/$filename"); # Actually replace the link to an image.
+		}
 	}
 
 	# Make sure the tag "img" is closed.  (Some are not.)
@@ -186,10 +186,10 @@ sub fix_images
 	$document =~ s|<img ([^>]*?)/>|<img alt="" $1/>|g;
 
 	# Remove useless link to photobucket.com - it only disturbs the LaTeX
-	$document =~ s|<a href="http://photobucket\.com/?" target="_blank" rel="nofollow">(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.photobucket\.com/albums/v243/alexandrov_g/\?action=view&amp;current=.*?>(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.photobucket\.com/user/alexandrov_g/media/.*?>(.*?)</a>|$1|sg;
-	$document =~ s|<a href="http://smg\.beta\.photobucket\.com.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://photobucket\.com/?" target="_blank" rel="nofollow">(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.photobucket\.com/albums/v243/alexandrov_g/\?action=view&amp;current=.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.photobucket\.com/user/alexandrov_g/media/.*?>(.*?)</a>|$1|sg;
+	$document =~ s|<a href="https?://smg\.beta\.photobucket\.com.*?>(.*?)</a>|$1|sg;
 
 	return $document;
 }
@@ -214,6 +214,10 @@ sub fix_tags
 	$document =~ s|<strike>(.*?)</strike>|<span style="text-decoration:line-through;">$1</span>|g;
 	$document =~ s|<font color="(.*?)">(.*?)</font>|<span style="color:$1">$2</span>|g;
 
+	# Remove XML namespace stuff
+	$document =~ s|<xml:namespace ns="livejournal" prefix="lj">||g;
+	$document =~ s|</xml:namespace>||g;
+
 	return $document;	
 }
 
@@ -229,4 +233,21 @@ sub fix_text
 	$document =~ s/ & / &amp; /g;
 
 	return $document;	
+}
+
+sub fix_links
+{
+	my $document = shift;
+
+	# Replace remote link targets with local posts where possible.
+	while ($document =~ m|<a .*?href=['"](https?://alexandrov-g.livejournal.com/.*?)['"]|g)
+	{
+		my $http_from = $-[1];
+		my $http_to = $+[1];
+		my $filename = basename($1);
+		if (-e "../../lj_raw/posts/$filename") {
+			substr($document, $http_from, $http_to - $http_from, $filename);
+		}
+	}
+	return $document;
 }

@@ -44,6 +44,7 @@ sub get_image
 	$image_file_name =~ s/_png$/\.png/i;
 	$image_file_name =~ s/_gif$/\.gif/i;
 	$image_file_name =~ s/_jpg$/\.jpg/i;
+	$image_file_name =~ s/_jpeg$/\.jpeg/i;
 	
 	if (-e $image_file_name)
 	{

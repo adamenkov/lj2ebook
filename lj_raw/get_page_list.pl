@@ -35,7 +35,7 @@ sub get_page_list
 			$month_view = get($addr) || die "Couldn't get $addr";
 			#print("Month view:\n$month_view"); exit(1);
 			
-			while ($month_view =~ m|<div class="subjectlist">(.*?)</div>|sg)
+			while ($month_view =~ m|<div class="entry-text">(.*?)</div>|sg)
 			{
 				my $subject_list = $1;
 				#print("$subject_list\n");
